@@ -19,5 +19,5 @@ embedFooterMsg: "snipe message 😁"
 }
 exports.command = {
   name: "snipe",
-  aliases: [""]
+  aliases: ["sn"]
 };

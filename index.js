@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (request, response) => {
 
-  console.log(Date.now() + " Online bot using uplife-api");
+  console.log(Date.now() + "bot is online on the command of you");
 
   response.sendStatus(200);
 

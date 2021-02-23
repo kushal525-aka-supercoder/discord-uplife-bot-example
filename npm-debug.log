@@ -1,0 +1,2487 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'uplife-api' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData uplife-api@^2.0.26
+8 silly fetchNamedPackageData uplife-api
+9 silly mapToRegistry name uplife-api
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'uplife-api',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'uplife-api',
+12 silly mapToRegistry   name: 'uplife-api',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/uplife-api
+14 verbose request uri https://registry.npmjs.org/uplife-api
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 9:01:25 PM
+17 verbose request id d027218401145873
+18 http request GET https://registry.npmjs.org/uplife-api
+19 http 200 https://registry.npmjs.org/uplife-api
+20 verbose headers { date: 'Wed, 17 Feb 2021 15:31:28 GMT',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'set-cookie': [ '__cfduid=db7d2e7517db7cbf4f7f13c03b5a083e91613575886; expires=Fri, 19-Mar-21 15:31:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+20 verbose headers   'cf-ray': '62308e2abe3ade82-BLR',
+20 verbose headers   'cache-control': 'public, max-age=300',
+20 verbose headers   etag: 'W/"8b52592a90df9caaa98a8c785d08d9c0"',
+20 verbose headers   'last-modified': 'Thu, 11 Feb 2021 16:47:20 GMT',
+20 verbose headers   vary: 'accept-encoding, accept',
+20 verbose headers   'cf-cache-status': 'MISS',
+20 verbose headers   'cf-request-id': '0852372eb70000de824f89c000000001',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   server: 'cloudflare',
+20 verbose headers   'content-encoding': 'gzip' }
+21 silly get cb [ 200,
+21 silly get   { date: 'Wed, 17 Feb 2021 15:31:28 GMT',
+21 silly get     'content-type': 'application/json',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'set-cookie': [ '__cfduid=db7d2e7517db7cbf4f7f13c03b5a083e91613575886; expires=Fri, 19-Mar-21 15:31:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 silly get     'cf-ray': '62308e2abe3ade82-BLR',
+21 silly get     'cache-control': 'public, max-age=300',
+21 silly get     etag: 'W/"8b52592a90df9caaa98a8c785d08d9c0"',
+21 silly get     'last-modified': 'Thu, 11 Feb 2021 16:47:20 GMT',
+21 silly get     vary: 'accept-encoding, accept',
+21 silly get     'cf-cache-status': 'MISS',
+21 silly get     'cf-request-id': '0852372eb70000de824f89c000000001',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     server: 'cloudflare',
+21 silly get     'content-encoding': 'gzip' } ]
+22 verbose get saving uplife-api to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\uplife-api\.cache.json
+23 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule uplife-api@2.0.26 checking installable status
+37 silly cache add args [ 'uplife-api@^2.0.26', null ]
+38 verbose cache add spec uplife-api@^2.0.26
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'uplife-api@^2.0.26',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'uplife-api',
+39 silly cache add   name: 'uplife-api',
+39 silly cache add   rawSpec: '^2.0.26',
+39 silly cache add   spec: '>=2.0.26 <3.0.0',
+39 silly cache add   type: 'range' }
+40 silly addNamed uplife-api@>=2.0.26 <3.0.0
+41 verbose addNamed ">=2.0.26 <3.0.0" is a valid semver range for uplife-api
+42 silly addNameRange { name: 'uplife-api', range: '>=2.0.26 <3.0.0', hasData: false }
+43 silly mapToRegistry name uplife-api
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'uplife-api',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'uplife-api',
+46 silly mapToRegistry   name: 'uplife-api',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/uplife-api
+48 verbose addNameRange registry:https://registry.npmjs.org/uplife-api not in flight; fetching
+49 verbose get https://registry.npmjs.org/uplife-api not expired, no request
+50 silly addNameRange number 2 { name: 'uplife-api', range: '>=2.0.26 <3.0.0', hasData: true }
+51 silly addNameRange versions [ 'uplife-api',
+51 silly addNameRange   [ '1.0.0',
+51 silly addNameRange     '2.0.0',
+51 silly addNameRange     '2.0.2',
+51 silly addNameRange     '2.0.3',
+51 silly addNameRange     '2.0.4',
+51 silly addNameRange     '2.0.5',
+51 silly addNameRange     '2.0.6',
+51 silly addNameRange     '2.0.7',
+51 silly addNameRange     '2.0.8',
+51 silly addNameRange     '2.0.9',
+51 silly addNameRange     '2.0.10',
+51 silly addNameRange     '2.0.11',
+51 silly addNameRange     '2.0.12',
+51 silly addNameRange     '2.0.13',
+51 silly addNameRange     '2.0.14',
+51 silly addNameRange     '2.0.15',
+51 silly addNameRange     '2.0.16',
+51 silly addNameRange     '2.0.17',
+51 silly addNameRange     '2.0.18',
+51 silly addNameRange     '2.0.19',
+51 silly addNameRange     '2.0.20',
+51 silly addNameRange     '2.0.21',
+51 silly addNameRange     '2.0.22',
+51 silly addNameRange     '2.0.23',
+51 silly addNameRange     '2.0.24',
+51 silly addNameRange     '2.0.25',
+51 silly addNameRange     '2.0.26' ] ]
+52 silly addNamed uplife-api@2.0.26
+53 verbose addNamed "2.0.26" is a plain semver version for uplife-api
+54 silly mapToRegistry name uplife-api
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'uplife-api',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'uplife-api',
+57 silly mapToRegistry   name: 'uplife-api',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/uplife-api
+59 verbose addRemoteTarball https://registry.npmjs.org/uplife-api/-/uplife-api-2.0.26.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/uplife-api/-/uplife-api-2.0.26.tgz',
+60 verbose addRemoteTarball   '776f4db0d195993b53b9efe75f97665ebe4f56af' ]
+61 info retry fetch attempt 1 at 9:01:27 PM
+62 info attempt registry request try #1 at 9:01:27 PM
+63 http fetch GET https://registry.npmjs.org/uplife-api/-/uplife-api-2.0.26.tgz
+64 http fetch 200 https://registry.npmjs.org/uplife-api/-/uplife-api-2.0.26.tgz
+65 silly fetchAndShaCheck shasum 776f4db0d195993b53b9efe75f97665ebe4f56af
+66 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\uplife-api\-\uplife-api-2.0.26.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for uplife-api@2.0.26
+68 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+69 silly cache afterAdd uplife-api@2.0.26
+70 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\uplife-api\2.0.26\package\package.json not in flight; writing
+71 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+72 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\uplife-api\2.0.26\package\package.json written
+73 silly fetchNamedPackageData chalk
+74 silly mapToRegistry name chalk
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'chalk',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'chalk',
+77 silly mapToRegistry   name: 'chalk',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/chalk
+79 silly fetchNamedPackageData moment
+80 silly mapToRegistry name moment
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'moment',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'moment',
+83 silly mapToRegistry   name: 'moment',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/moment
+85 silly fetchNamedPackageData moment-duration-format
+86 silly mapToRegistry name moment-duration-format
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'moment-duration-format',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'moment-duration-format',
+89 silly mapToRegistry   name: 'moment-duration-format',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/moment-duration-format
+91 silly fetchNamedPackageData ms
+92 silly mapToRegistry name ms
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'ms',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'ms',
+95 silly mapToRegistry   name: 'ms',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/ms
+97 silly fetchNamedPackageData discord-prefix
+98 silly mapToRegistry name discord-prefix
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'discord-prefix',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'discord-prefix',
+101 silly mapToRegistry   name: 'discord-prefix',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/discord-prefix
+103 silly fetchNamedPackageData quick.db
+104 silly mapToRegistry name quick.db
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'quick.db',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'quick.db',
+107 silly mapToRegistry   name: 'quick.db',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/quick.db
+109 silly fetchNamedPackageData discord-canvas
+110 silly mapToRegistry name discord-canvas
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'discord-canvas',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'discord-canvas',
+113 silly mapToRegistry   name: 'discord-canvas',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/discord-canvas
+115 silly fetchNamedPackageData @discordjs/opus
+116 silly mapToRegistry name @discordjs/opus
+117 silly mapToRegistry scope (from package name) @discordjs
+118 verbose mapToRegistry no registry URL found in name for scope @discordjs
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry data Result {
+121 silly mapToRegistry   raw: '@discordjs/opus',
+121 silly mapToRegistry   scope: '@discordjs',
+121 silly mapToRegistry   escapedName: '@discordjs%2fopus',
+121 silly mapToRegistry   name: '@discordjs/opus',
+121 silly mapToRegistry   rawSpec: '',
+121 silly mapToRegistry   spec: 'latest',
+121 silly mapToRegistry   type: 'tag' }
+122 silly mapToRegistry uri https://registry.npmjs.org/@discordjs%2fopus
+123 silly fetchNamedPackageData snekfetch
+124 silly mapToRegistry name snekfetch
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry data Result {
+127 silly mapToRegistry   raw: 'snekfetch',
+127 silly mapToRegistry   scope: null,
+127 silly mapToRegistry   escapedName: 'snekfetch',
+127 silly mapToRegistry   name: 'snekfetch',
+127 silly mapToRegistry   rawSpec: '',
+127 silly mapToRegistry   spec: 'latest',
+127 silly mapToRegistry   type: 'tag' }
+128 silly mapToRegistry uri https://registry.npmjs.org/snekfetch
+129 silly fetchNamedPackageData anti-raid
+130 silly mapToRegistry name anti-raid
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry data Result {
+133 silly mapToRegistry   raw: 'anti-raid',
+133 silly mapToRegistry   scope: null,
+133 silly mapToRegistry   escapedName: 'anti-raid',
+133 silly mapToRegistry   name: 'anti-raid',
+133 silly mapToRegistry   rawSpec: '',
+133 silly mapToRegistry   spec: 'latest',
+133 silly mapToRegistry   type: 'tag' }
+134 silly mapToRegistry uri https://registry.npmjs.org/anti-raid
+135 silly fetchNamedPackageData node-fetch
+136 silly mapToRegistry name node-fetch
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry data Result {
+139 silly mapToRegistry   raw: 'node-fetch',
+139 silly mapToRegistry   scope: null,
+139 silly mapToRegistry   escapedName: 'node-fetch',
+139 silly mapToRegistry   name: 'node-fetch',
+139 silly mapToRegistry   rawSpec: '',
+139 silly mapToRegistry   spec: 'latest',
+139 silly mapToRegistry   type: 'tag' }
+140 silly mapToRegistry uri https://registry.npmjs.org/node-fetch
+141 silly fetchNamedPackageData superagent
+142 silly mapToRegistry name superagent
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry data Result {
+145 silly mapToRegistry   raw: 'superagent',
+145 silly mapToRegistry   scope: null,
+145 silly mapToRegistry   escapedName: 'superagent',
+145 silly mapToRegistry   name: 'superagent',
+145 silly mapToRegistry   rawSpec: '',
+145 silly mapToRegistry   spec: 'latest',
+145 silly mapToRegistry   type: 'tag' }
+146 silly mapToRegistry uri https://registry.npmjs.org/superagent
+147 silly fetchNamedPackageData express
+148 silly mapToRegistry name express
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry data Result {
+151 silly mapToRegistry   raw: 'express',
+151 silly mapToRegistry   scope: null,
+151 silly mapToRegistry   escapedName: 'express',
+151 silly mapToRegistry   name: 'express',
+151 silly mapToRegistry   rawSpec: '',
+151 silly mapToRegistry   spec: 'latest',
+151 silly mapToRegistry   type: 'tag' }
+152 silly mapToRegistry uri https://registry.npmjs.org/express
+153 silly fetchOtherPackageData reaction-role@github:namekinggamerboy/reaction-role
+154 silly cache add args [ 'reaction-role@github:namekinggamerboy/reaction-role', null ]
+155 verbose cache add spec reaction-role@github:namekinggamerboy/reaction-role
+156 silly fetchOtherPackageData discord.js@github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140
+157 silly cache add args [ 'discord.js@github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+157 silly cache add   null ]
+158 verbose cache add spec discord.js@github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140
+159 silly fetchOtherPackageData discord-giveaways@github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465
+160 silly cache add args [ 'discord-giveaways@github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465',
+160 silly cache add   null ]
+161 verbose cache add spec discord-giveaways@github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465
+162 silly fetchOtherPackageData economy-uplife@github:namekinggamerboy/economy-uplife
+163 silly cache add args [ 'economy-uplife@github:namekinggamerboy/economy-uplife',
+163 silly cache add   null ]
+164 verbose cache add spec economy-uplife@github:namekinggamerboy/economy-uplife
+165 silly fetchOtherPackageData music-uplife@github:namekinggamerboy/music-uplife
+166 silly cache add args [ 'music-uplife@github:namekinggamerboy/music-uplife', null ]
+167 verbose cache add spec music-uplife@github:namekinggamerboy/music-uplife
+168 verbose request uri https://registry.npmjs.org/chalk
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 9:01:29 PM
+171 http request GET https://registry.npmjs.org/chalk
+172 verbose request uri https://registry.npmjs.org/moment
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 9:01:29 PM
+175 http request GET https://registry.npmjs.org/moment
+176 verbose request uri https://registry.npmjs.org/moment-duration-format
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 9:01:29 PM
+179 http request GET https://registry.npmjs.org/moment-duration-format
+180 verbose request uri https://registry.npmjs.org/ms
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 9:01:29 PM
+183 http request GET https://registry.npmjs.org/ms
+184 verbose request uri https://registry.npmjs.org/discord-prefix
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 9:01:29 PM
+187 http request GET https://registry.npmjs.org/discord-prefix
+188 verbose request uri https://registry.npmjs.org/quick.db
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 9:01:29 PM
+191 http request GET https://registry.npmjs.org/quick.db
+192 verbose request uri https://registry.npmjs.org/discord-canvas
+193 verbose request no auth needed
+194 info attempt registry request try #1 at 9:01:29 PM
+195 http request GET https://registry.npmjs.org/discord-canvas
+196 verbose request uri https://registry.npmjs.org/@discordjs%2fopus
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 9:01:29 PM
+199 http request GET https://registry.npmjs.org/@discordjs%2fopus
+200 verbose request uri https://registry.npmjs.org/snekfetch
+201 verbose request no auth needed
+202 info attempt registry request try #1 at 9:01:29 PM
+203 http request GET https://registry.npmjs.org/snekfetch
+204 verbose request uri https://registry.npmjs.org/anti-raid
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 9:01:29 PM
+207 http request GET https://registry.npmjs.org/anti-raid
+208 verbose request uri https://registry.npmjs.org/node-fetch
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 9:01:29 PM
+211 http request GET https://registry.npmjs.org/node-fetch
+212 verbose request uri https://registry.npmjs.org/superagent
+213 verbose request no auth needed
+214 info attempt registry request try #1 at 9:01:29 PM
+215 http request GET https://registry.npmjs.org/superagent
+216 verbose request uri https://registry.npmjs.org/express
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 9:01:29 PM
+219 http request GET https://registry.npmjs.org/express
+220 silly cache add parsed spec Result {
+220 silly cache add   raw: 'reaction-role@github:namekinggamerboy/reaction-role',
+220 silly cache add   scope: null,
+220 silly cache add   escapedName: 'reaction-role',
+220 silly cache add   name: 'reaction-role',
+220 silly cache add   rawSpec: 'github:namekinggamerboy/reaction-role',
+220 silly cache add   spec: 'github:namekinggamerboy/reaction-role',
+220 silly cache add   type: 'hosted',
+220 silly cache add   hosted:
+220 silly cache add    { type: 'github',
+220 silly cache add      ssh: 'git@github.com:namekinggamerboy/reaction-role.git',
+220 silly cache add      sshUrl: 'git+ssh://git@github.com/namekinggamerboy/reaction-role.git',
+220 silly cache add      httpsUrl: 'git+https://github.com/namekinggamerboy/reaction-role.git',
+220 silly cache add      gitUrl: 'git://github.com/namekinggamerboy/reaction-role.git',
+220 silly cache add      shortcut: 'github:namekinggamerboy/reaction-role',
+220 silly cache add      directUrl: 'https://raw.githubusercontent.com/namekinggamerboy/reaction-role/master/package.json' } }
+221 verbose addRemoteGit caching github:namekinggamerboy/reaction-role
+222 verbose addRemoteGit namekinggamerboy/reaction-role is a repository hosted by github
+223 silly tryGitProto attempting to clone git://github.com/namekinggamerboy/reaction-role.git
+224 silly tryClone cloning namekinggamerboy/reaction-role via git://github.com/namekinggamerboy/reaction-role.git
+225 verbose tryClone git-github-com-namekinggamerboy-reaction-role-git-894b337a not in flight; caching
+226 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+227 silly cache add parsed spec Result {
+227 silly cache add   raw: 'discord.js@github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add   scope: null,
+227 silly cache add   escapedName: 'discord.js',
+227 silly cache add   name: 'discord.js',
+227 silly cache add   rawSpec: 'github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add   spec: 'github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add   type: 'hosted',
+227 silly cache add   hosted:
+227 silly cache add    { type: 'github',
+227 silly cache add      ssh: 'git@github.com:discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add      sshUrl: 'git+ssh://git@github.com/discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add      httpsUrl: 'git+https://github.com/discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add      gitUrl: 'git://github.com/discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add      shortcut: 'github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140',
+227 silly cache add      directUrl: 'https://raw.githubusercontent.com/discordjs/discord.js/fe7df708e44e0280dfaf0f8e457b154781bb5140/package.json' } }
+228 verbose addRemoteGit caching github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140
+229 verbose addRemoteGit discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140 is a repository hosted by github
+230 silly tryGitProto attempting to clone git://github.com/discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140
+231 silly tryClone cloning discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140 via git://github.com/discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140
+232 verbose tryClone git-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-0e937e32 not in flight; caching
+233 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir already in flight; waiting
+234 silly cache add parsed spec Result {
+234 silly cache add   raw: 'discord-giveaways@github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add   scope: null,
+234 silly cache add   escapedName: 'discord-giveaways',
+234 silly cache add   name: 'discord-giveaways',
+234 silly cache add   rawSpec: 'github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add   spec: 'github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add   type: 'hosted',
+234 silly cache add   hosted:
+234 silly cache add    { type: 'github',
+234 silly cache add      ssh: 'git@github.com:namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add      sshUrl: 'git+ssh://git@github.com/namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add      httpsUrl: 'git+https://github.com/namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add      gitUrl: 'git://github.com/namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add      shortcut: 'github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465',
+234 silly cache add      directUrl: 'https://raw.githubusercontent.com/namekinggamerboy/discord-giveaways/4439acef211bad6bb1146f23f348b5af3fe4f465/package.json' } }
+235 verbose addRemoteGit caching github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465
+236 verbose addRemoteGit namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465 is a repository hosted by github
+237 silly tryGitProto attempting to clone git://github.com/namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465
+238 silly tryClone cloning namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465 via git://github.com/namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465
+239 verbose tryClone git-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-67ccccce not in flight; caching
+240 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir already in flight; waiting
+241 silly cache add parsed spec Result {
+241 silly cache add   raw: 'economy-uplife@github:namekinggamerboy/economy-uplife',
+241 silly cache add   scope: null,
+241 silly cache add   escapedName: 'economy-uplife',
+241 silly cache add   name: 'economy-uplife',
+241 silly cache add   rawSpec: 'github:namekinggamerboy/economy-uplife',
+241 silly cache add   spec: 'github:namekinggamerboy/economy-uplife',
+241 silly cache add   type: 'hosted',
+241 silly cache add   hosted:
+241 silly cache add    { type: 'github',
+241 silly cache add      ssh: 'git@github.com:namekinggamerboy/economy-uplife.git',
+241 silly cache add      sshUrl: 'git+ssh://git@github.com/namekinggamerboy/economy-uplife.git',
+241 silly cache add      httpsUrl: 'git+https://github.com/namekinggamerboy/economy-uplife.git',
+241 silly cache add      gitUrl: 'git://github.com/namekinggamerboy/economy-uplife.git',
+241 silly cache add      shortcut: 'github:namekinggamerboy/economy-uplife',
+241 silly cache add      directUrl: 'https://raw.githubusercontent.com/namekinggamerboy/economy-uplife/master/package.json' } }
+242 verbose addRemoteGit caching github:namekinggamerboy/economy-uplife
+243 verbose addRemoteGit namekinggamerboy/economy-uplife is a repository hosted by github
+244 silly tryGitProto attempting to clone git://github.com/namekinggamerboy/economy-uplife.git
+245 silly tryClone cloning namekinggamerboy/economy-uplife via git://github.com/namekinggamerboy/economy-uplife.git
+246 verbose tryClone git-github-com-namekinggamerboy-economy-uplife-git-75aa76c7 not in flight; caching
+247 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir already in flight; waiting
+248 silly cache add parsed spec Result {
+248 silly cache add   raw: 'music-uplife@github:namekinggamerboy/music-uplife',
+248 silly cache add   scope: null,
+248 silly cache add   escapedName: 'music-uplife',
+248 silly cache add   name: 'music-uplife',
+248 silly cache add   rawSpec: 'github:namekinggamerboy/music-uplife',
+248 silly cache add   spec: 'github:namekinggamerboy/music-uplife',
+248 silly cache add   type: 'hosted',
+248 silly cache add   hosted:
+248 silly cache add    { type: 'github',
+248 silly cache add      ssh: 'git@github.com:namekinggamerboy/music-uplife.git',
+248 silly cache add      sshUrl: 'git+ssh://git@github.com/namekinggamerboy/music-uplife.git',
+248 silly cache add      httpsUrl: 'git+https://github.com/namekinggamerboy/music-uplife.git',
+248 silly cache add      gitUrl: 'git://github.com/namekinggamerboy/music-uplife.git',
+248 silly cache add      shortcut: 'github:namekinggamerboy/music-uplife',
+248 silly cache add      directUrl: 'https://raw.githubusercontent.com/namekinggamerboy/music-uplife/master/package.json' } }
+249 verbose addRemoteGit caching github:namekinggamerboy/music-uplife
+250 verbose addRemoteGit namekinggamerboy/music-uplife is a repository hosted by github
+251 silly tryGitProto attempting to clone git://github.com/namekinggamerboy/music-uplife.git
+252 silly tryClone cloning namekinggamerboy/music-uplife via git://github.com/namekinggamerboy/music-uplife.git
+253 verbose tryClone git-github-com-namekinggamerboy-music-uplife-git-7ea5b275 not in flight; caching
+254 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir already in flight; waiting
+255 verbose makeDirectory C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+256 verbose makeCacheDir UID & GID are irrelevant on win32
+257 http 200 https://registry.npmjs.org/chalk
+258 verbose headers { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+258 verbose headers   'content-type': 'application/json',
+258 verbose headers   'transfer-encoding': 'chunked',
+258 verbose headers   connection: 'keep-alive',
+258 verbose headers   'set-cookie': [ '__cfduid=d1ffea6da06a83c06086b3dee7bbadf4a1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+258 verbose headers   'cf-ray': '62308e41fdbede82-BLR',
+258 verbose headers   age: '1781',
+258 verbose headers   'cache-control': 'public, max-age=300',
+258 verbose headers   etag: 'W/"ee1019564dc1c941779ddd87d995fd88"',
+258 verbose headers   'last-modified': 'Thu, 11 Feb 2021 00:27:32 GMT',
+258 verbose headers   vary: 'accept-encoding, accept',
+258 verbose headers   'cf-cache-status': 'HIT',
+258 verbose headers   'cf-request-id': '0852373d3b0000de8256b06000000001',
+258 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+258 verbose headers   server: 'cloudflare',
+258 verbose headers   'content-encoding': 'gzip' }
+259 silly get cb [ 200,
+259 silly get   { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+259 silly get     'content-type': 'application/json',
+259 silly get     'transfer-encoding': 'chunked',
+259 silly get     connection: 'keep-alive',
+259 silly get     'set-cookie': [ '__cfduid=d1ffea6da06a83c06086b3dee7bbadf4a1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+259 silly get     'cf-ray': '62308e41fdbede82-BLR',
+259 silly get     age: '1781',
+259 silly get     'cache-control': 'public, max-age=300',
+259 silly get     etag: 'W/"ee1019564dc1c941779ddd87d995fd88"',
+259 silly get     'last-modified': 'Thu, 11 Feb 2021 00:27:32 GMT',
+259 silly get     vary: 'accept-encoding, accept',
+259 silly get     'cf-cache-status': 'HIT',
+259 silly get     'cf-request-id': '0852373d3b0000de8256b06000000001',
+259 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+259 silly get     server: 'cloudflare',
+259 silly get     'content-encoding': 'gzip' } ]
+260 verbose get saving chalk to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\chalk\.cache.json
+261 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+262 http 200 https://registry.npmjs.org/ms
+263 verbose headers { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+263 verbose headers   'content-type': 'application/json',
+263 verbose headers   'transfer-encoding': 'chunked',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'set-cookie': [ '__cfduid=d84f45520393ebbb10ebd7ff2edb39d7d1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+263 verbose headers   'cf-ray': '62308e42ac09dea6-BLR',
+263 verbose headers   age: '6954',
+263 verbose headers   'cache-control': 'public, max-age=300',
+263 verbose headers   etag: 'W/"d9867dcb8514603ff3617105a9e3f574"',
+263 verbose headers   'last-modified': 'Mon, 01 Feb 2021 20:33:39 GMT',
+263 verbose headers   vary: 'accept-encoding, accept',
+263 verbose headers   'cf-cache-status': 'HIT',
+263 verbose headers   'cf-request-id': '0852373dab0000dea65bb38000000001',
+263 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+263 verbose headers   server: 'cloudflare',
+263 verbose headers   'content-encoding': 'gzip' }
+264 silly get cb [ 200,
+264 silly get   { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+264 silly get     'content-type': 'application/json',
+264 silly get     'transfer-encoding': 'chunked',
+264 silly get     connection: 'keep-alive',
+264 silly get     'set-cookie': [ '__cfduid=d84f45520393ebbb10ebd7ff2edb39d7d1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+264 silly get     'cf-ray': '62308e42ac09dea6-BLR',
+264 silly get     age: '6954',
+264 silly get     'cache-control': 'public, max-age=300',
+264 silly get     etag: 'W/"d9867dcb8514603ff3617105a9e3f574"',
+264 silly get     'last-modified': 'Mon, 01 Feb 2021 20:33:39 GMT',
+264 silly get     vary: 'accept-encoding, accept',
+264 silly get     'cf-cache-status': 'HIT',
+264 silly get     'cf-request-id': '0852373dab0000dea65bb38000000001',
+264 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+264 silly get     server: 'cloudflare',
+264 silly get     'content-encoding': 'gzip' } ]
+265 verbose get saving ms to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\ms\.cache.json
+266 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+267 silly resolveWithNewModule chalk@4.0.0 checking installable status
+268 silly cache add args [ 'chalk@4.0.0', null ]
+269 verbose cache add spec chalk@4.0.0
+270 silly cache add parsed spec Result {
+270 silly cache add   raw: 'chalk@4.0.0',
+270 silly cache add   scope: null,
+270 silly cache add   escapedName: 'chalk',
+270 silly cache add   name: 'chalk',
+270 silly cache add   rawSpec: '4.0.0',
+270 silly cache add   spec: '4.0.0',
+270 silly cache add   type: 'version' }
+271 silly addNamed chalk@4.0.0
+272 verbose addNamed "4.0.0" is a plain semver version for chalk
+273 silly mapToRegistry name chalk
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry data Result {
+276 silly mapToRegistry   raw: 'chalk',
+276 silly mapToRegistry   scope: null,
+276 silly mapToRegistry   escapedName: 'chalk',
+276 silly mapToRegistry   name: 'chalk',
+276 silly mapToRegistry   rawSpec: '',
+276 silly mapToRegistry   spec: 'latest',
+276 silly mapToRegistry   type: 'tag' }
+277 silly mapToRegistry uri https://registry.npmjs.org/chalk
+278 verbose addNameVersion registry:https://registry.npmjs.org/chalk not in flight; fetching
+279 http 200 https://registry.npmjs.org/moment
+280 verbose headers { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+280 verbose headers   'content-type': 'application/json',
+280 verbose headers   'transfer-encoding': 'chunked',
+280 verbose headers   connection: 'keep-alive',
+280 verbose headers   'set-cookie': [ '__cfduid=d5eb257c6707c604c15cd2d7832ee2e2c1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+280 verbose headers   'cf-ray': '62308e42aed1de9e-BLR',
+280 verbose headers   age: '7097',
+280 verbose headers   'cache-control': 'public, max-age=300',
+280 verbose headers   etag: 'W/"5302c00bc8b4428cf859b0d86a4882b6"',
+280 verbose headers   'last-modified': 'Tue, 06 Oct 2020 11:21:33 GMT',
+280 verbose headers   vary: 'accept-encoding, accept',
+280 verbose headers   'cf-cache-status': 'HIT',
+280 verbose headers   'cf-request-id': '0852373dac0000de9ecebe9000000001',
+280 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+280 verbose headers   server: 'cloudflare',
+280 verbose headers   'content-encoding': 'gzip' }
+281 silly get cb [ 200,
+281 silly get   { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+281 silly get     'content-type': 'application/json',
+281 silly get     'transfer-encoding': 'chunked',
+281 silly get     connection: 'keep-alive',
+281 silly get     'set-cookie': [ '__cfduid=d5eb257c6707c604c15cd2d7832ee2e2c1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+281 silly get     'cf-ray': '62308e42aed1de9e-BLR',
+281 silly get     age: '7097',
+281 silly get     'cache-control': 'public, max-age=300',
+281 silly get     etag: 'W/"5302c00bc8b4428cf859b0d86a4882b6"',
+281 silly get     'last-modified': 'Tue, 06 Oct 2020 11:21:33 GMT',
+281 silly get     vary: 'accept-encoding, accept',
+281 silly get     'cf-cache-status': 'HIT',
+281 silly get     'cf-request-id': '0852373dac0000de9ecebe9000000001',
+281 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+281 silly get     server: 'cloudflare',
+281 silly get     'content-encoding': 'gzip' } ]
+282 verbose get saving moment to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\moment\.cache.json
+283 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+284 silly resolveWithNewModule ms@2.1.3 checking installable status
+285 silly cache add args [ 'ms@*', null ]
+286 verbose cache add spec ms@*
+287 silly cache add parsed spec Result {
+287 silly cache add   raw: 'ms@*',
+287 silly cache add   scope: null,
+287 silly cache add   escapedName: 'ms',
+287 silly cache add   name: 'ms',
+287 silly cache add   rawSpec: '*',
+287 silly cache add   spec: '*',
+287 silly cache add   type: 'range' }
+288 silly addNamed ms@*
+289 verbose addNamed "*" is a valid semver range for ms
+290 silly addNameRange { name: 'ms', range: '*', hasData: false }
+291 silly mapToRegistry name ms
+292 silly mapToRegistry using default registry
+293 silly mapToRegistry registry https://registry.npmjs.org/
+294 silly mapToRegistry data Result {
+294 silly mapToRegistry   raw: 'ms',
+294 silly mapToRegistry   scope: null,
+294 silly mapToRegistry   escapedName: 'ms',
+294 silly mapToRegistry   name: 'ms',
+294 silly mapToRegistry   rawSpec: '',
+294 silly mapToRegistry   spec: 'latest',
+294 silly mapToRegistry   type: 'tag' }
+295 silly mapToRegistry uri https://registry.npmjs.org/ms
+296 verbose addNameRange registry:https://registry.npmjs.org/ms not in flight; fetching
+297 verbose get https://registry.npmjs.org/chalk not expired, no request
+298 silly mapToRegistry name chalk
+299 silly mapToRegistry using default registry
+300 silly mapToRegistry registry https://registry.npmjs.org/
+301 silly mapToRegistry data Result {
+301 silly mapToRegistry   raw: 'chalk',
+301 silly mapToRegistry   scope: null,
+301 silly mapToRegistry   escapedName: 'chalk',
+301 silly mapToRegistry   name: 'chalk',
+301 silly mapToRegistry   rawSpec: '',
+301 silly mapToRegistry   spec: 'latest',
+301 silly mapToRegistry   type: 'tag' }
+302 silly mapToRegistry uri https://registry.npmjs.org/chalk
+303 verbose addRemoteTarball https://registry.npmjs.org/chalk/-/chalk-4.0.0.tgz not in flight; adding
+304 verbose addRemoteTarball [ 'https://registry.npmjs.org/chalk/-/chalk-4.0.0.tgz',
+304 verbose addRemoteTarball   '6e98081ed2d17faab615eb52ac66ec1fe6209e72' ]
+305 verbose get https://registry.npmjs.org/ms not expired, no request
+306 silly addNameRange number 2 { name: 'ms', range: '*', hasData: true }
+307 silly addNameRange versions [ 'ms',
+307 silly addNameRange   [ '0.1.0',
+307 silly addNameRange     '0.2.0',
+307 silly addNameRange     '0.3.0',
+307 silly addNameRange     '0.4.0',
+307 silly addNameRange     '0.5.0',
+307 silly addNameRange     '0.5.1',
+307 silly addNameRange     '0.6.0',
+307 silly addNameRange     '0.6.1',
+307 silly addNameRange     '0.6.2',
+307 silly addNameRange     '0.7.0',
+307 silly addNameRange     '0.7.1',
+307 silly addNameRange     '0.7.2',
+307 silly addNameRange     '0.7.3',
+307 silly addNameRange     '1.0.0',
+307 silly addNameRange     '2.0.0',
+307 silly addNameRange     '2.1.0',
+307 silly addNameRange     '2.1.1',
+307 silly addNameRange     '2.1.2',
+307 silly addNameRange     '2.1.3' ] ]
+308 silly addNamed ms@2.1.3
+309 verbose addNamed "2.1.3" is a plain semver version for ms
+310 info retry fetch attempt 1 at 9:01:30 PM
+311 info attempt registry request try #1 at 9:01:30 PM
+312 http fetch GET https://registry.npmjs.org/chalk/-/chalk-4.0.0.tgz
+313 silly mapToRegistry name ms
+314 silly mapToRegistry using default registry
+315 silly mapToRegistry registry https://registry.npmjs.org/
+316 silly mapToRegistry data Result {
+316 silly mapToRegistry   raw: 'ms',
+316 silly mapToRegistry   scope: null,
+316 silly mapToRegistry   escapedName: 'ms',
+316 silly mapToRegistry   name: 'ms',
+316 silly mapToRegistry   rawSpec: '',
+316 silly mapToRegistry   spec: 'latest',
+316 silly mapToRegistry   type: 'tag' }
+317 silly mapToRegistry uri https://registry.npmjs.org/ms
+318 verbose addRemoteTarball https://registry.npmjs.org/ms/-/ms-2.1.3.tgz not in flight; adding
+319 verbose addRemoteTarball [ 'https://registry.npmjs.org/ms/-/ms-2.1.3.tgz',
+319 verbose addRemoteTarball   '574c8138ce1d2b5861f0b44579dbadd60c6615b2' ]
+320 info retry fetch attempt 1 at 9:01:30 PM
+321 info attempt registry request try #1 at 9:01:30 PM
+322 http fetch GET https://registry.npmjs.org/ms/-/ms-2.1.3.tgz
+323 silly resolveWithNewModule moment@2.29.1 checking installable status
+324 silly cache add args [ 'moment@*', null ]
+325 verbose cache add spec moment@*
+326 silly cache add parsed spec Result {
+326 silly cache add   raw: 'moment@*',
+326 silly cache add   scope: null,
+326 silly cache add   escapedName: 'moment',
+326 silly cache add   name: 'moment',
+326 silly cache add   rawSpec: '*',
+326 silly cache add   spec: '*',
+326 silly cache add   type: 'range' }
+327 silly addNamed moment@*
+328 verbose addNamed "*" is a valid semver range for moment
+329 silly addNameRange { name: 'moment', range: '*', hasData: false }
+330 silly mapToRegistry name moment
+331 silly mapToRegistry using default registry
+332 silly mapToRegistry registry https://registry.npmjs.org/
+333 silly mapToRegistry data Result {
+333 silly mapToRegistry   raw: 'moment',
+333 silly mapToRegistry   scope: null,
+333 silly mapToRegistry   escapedName: 'moment',
+333 silly mapToRegistry   name: 'moment',
+333 silly mapToRegistry   rawSpec: '',
+333 silly mapToRegistry   spec: 'latest',
+333 silly mapToRegistry   type: 'tag' }
+334 silly mapToRegistry uri https://registry.npmjs.org/moment
+335 verbose addNameRange registry:https://registry.npmjs.org/moment not in flight; fetching
+336 http fetch 200 https://registry.npmjs.org/chalk/-/chalk-4.0.0.tgz
+337 verbose get https://registry.npmjs.org/moment not expired, no request
+338 silly addNameRange number 2 { name: 'moment', range: '*', hasData: true }
+339 silly addNameRange versions [ 'moment',
+339 silly addNameRange   [ '1.0.0',
+339 silly addNameRange     '1.0.1',
+339 silly addNameRange     '1.1.0',
+339 silly addNameRange     '1.1.1',
+339 silly addNameRange     '1.2.0',
+339 silly addNameRange     '1.3.0',
+339 silly addNameRange     '1.4.0',
+339 silly addNameRange     '1.5.0',
+339 silly addNameRange     '1.5.1',
+339 silly addNameRange     '1.6.0',
+339 silly addNameRange     '1.6.1',
+339 silly addNameRange     '1.6.2',
+339 silly addNameRange     '1.7.0',
+339 silly addNameRange     '1.7.1',
+339 silly addNameRange     '1.7.2',
+339 silly addNameRange     '2.0.0',
+339 silly addNameRange     '2.1.0',
+339 silly addNameRange     '2.2.1',
+339 silly addNameRange     '2.3.0',
+339 silly addNameRange     '2.3.1',
+339 silly addNameRange     '2.4.0',
+339 silly addNameRange     '2.5.0',
+339 silly addNameRange     '2.5.1',
+339 silly addNameRange     '2.6.0',
+339 silly addNameRange     '2.7.0',
+339 silly addNameRange     '2.8.1',
+339 silly addNameRange     '2.8.2',
+339 silly addNameRange     '2.8.3',
+339 silly addNameRange     '2.8.4',
+339 silly addNameRange     '2.9.0',
+339 silly addNameRange     '2.10.2',
+339 silly addNameRange     '2.10.3',
+339 silly addNameRange     '2.10.5',
+339 silly addNameRange     '2.10.6',
+339 silly addNameRange     '2.11.0',
+339 silly addNameRange     '2.11.1',
+339 silly addNameRange     '2.11.2',
+339 silly addNameRange     '2.12.0',
+339 silly addNameRange     '2.13.0',
+339 silly addNameRange     '2.14.0',
+339 silly addNameRange     '2.14.1',
+339 silly addNameRange     '2.15.0',
+339 silly addNameRange     '2.15.1',
+339 silly addNameRange     '2.15.2',
+339 silly addNameRange     '2.16.0',
+339 silly addNameRange     '2.17.0',
+339 silly addNameRange     '2.17.1',
+339 silly addNameRange     '2.18.0',
+339 silly addNameRange     '2.18.1',
+339 silly addNameRange     '2.19.0',
+339 silly addNameRange     '2.19.1',
+339 silly addNameRange     '2.19.2',
+339 silly addNameRange     '2.19.3',
+339 silly addNameRange     '2.19.4',
+339 silly addNameRange     '2.20.0',
+339 silly addNameRange     '2.20.1',
+339 silly addNameRange     '2.21.0',
+339 silly addNameRange     '2.22.0',
+339 silly addNameRange     '2.22.1',
+339 silly addNameRange     '2.22.2',
+339 silly addNameRange     '2.23.0',
+339 silly addNameRange     '2.24.0',
+339 silly addNameRange     '2.25.0',
+339 silly addNameRange     '2.25.1',
+339 silly addNameRange     '2.25.2',
+339 silly addNameRange     '2.25.3',
+339 silly addNameRange     '2.26.0',
+339 silly addNameRange     '2.27.0',
+339 silly addNameRange     '2.28.0',
+339 silly addNameRange     '2.29.0',
+339 silly addNameRange     '2.29.1' ] ]
+340 silly addNamed moment@2.29.1
+341 verbose addNamed "2.29.1" is a plain semver version for moment
+342 silly mapToRegistry name moment
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry data Result {
+345 silly mapToRegistry   raw: 'moment',
+345 silly mapToRegistry   scope: null,
+345 silly mapToRegistry   escapedName: 'moment',
+345 silly mapToRegistry   name: 'moment',
+345 silly mapToRegistry   rawSpec: '',
+345 silly mapToRegistry   spec: 'latest',
+345 silly mapToRegistry   type: 'tag' }
+346 silly mapToRegistry uri https://registry.npmjs.org/moment
+347 verbose addRemoteTarball https://registry.npmjs.org/moment/-/moment-2.29.1.tgz not in flight; adding
+348 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.29.1.tgz',
+348 verbose addRemoteTarball   'b2be769fa31940be9eeea6469c075e35006fa3d3' ]
+349 http fetch 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz
+350 silly fetchAndShaCheck shasum 6e98081ed2d17faab615eb52ac66ec1fe6209e72
+351 info retry fetch attempt 1 at 9:01:30 PM
+352 info attempt registry request try #1 at 9:01:30 PM
+353 http fetch GET https://registry.npmjs.org/moment/-/moment-2.29.1.tgz
+354 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\chalk\-\chalk-4.0.0.tgz not in flight; adding
+355 verbose addTmpTarball already have metadata; skipping unpack for chalk@4.0.0
+356 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+357 silly fetchAndShaCheck shasum 574c8138ce1d2b5861f0b44579dbadd60c6615b2
+358 http 200 https://registry.npmjs.org/express
+359 verbose headers { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+359 verbose headers   'content-type': 'application/json',
+359 verbose headers   'transfer-encoding': 'chunked',
+359 verbose headers   connection: 'keep-alive',
+359 verbose headers   'set-cookie': [ '__cfduid=d398105d7d3c9f98a091ed8c3246e86f81613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+359 verbose headers   'cf-ray': '62308e42cec6de92-BLR',
+359 verbose headers   age: '4302',
+359 verbose headers   'cache-control': 'public, max-age=300',
+359 verbose headers   etag: 'W/"5deaf368565fd3aea046da23526bfcbf"',
+359 verbose headers   'last-modified': 'Thu, 11 Feb 2021 00:18:40 GMT',
+359 verbose headers   vary: 'accept-encoding, accept',
+359 verbose headers   'cf-cache-status': 'HIT',
+359 verbose headers   'cf-request-id': '0852373dbc0000de92ce830000000001',
+359 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+359 verbose headers   server: 'cloudflare',
+359 verbose headers   'content-encoding': 'gzip' }
+360 silly get cb [ 200,
+360 silly get   { date: 'Wed, 17 Feb 2021 15:31:30 GMT',
+360 silly get     'content-type': 'application/json',
+360 silly get     'transfer-encoding': 'chunked',
+360 silly get     connection: 'keep-alive',
+360 silly get     'set-cookie': [ '__cfduid=d398105d7d3c9f98a091ed8c3246e86f81613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+360 silly get     'cf-ray': '62308e42cec6de92-BLR',
+360 silly get     age: '4302',
+360 silly get     'cache-control': 'public, max-age=300',
+360 silly get     etag: 'W/"5deaf368565fd3aea046da23526bfcbf"',
+360 silly get     'last-modified': 'Thu, 11 Feb 2021 00:18:40 GMT',
+360 silly get     vary: 'accept-encoding, accept',
+360 silly get     'cf-cache-status': 'HIT',
+360 silly get     'cf-request-id': '0852373dbc0000de92ce830000000001',
+360 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+360 silly get     server: 'cloudflare',
+360 silly get     'content-encoding': 'gzip' } ]
+361 verbose get saving express to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+362 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+363 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\ms\-\ms-2.1.3.tgz not in flight; adding
+364 verbose addTmpTarball already have metadata; skipping unpack for ms@2.1.3
+365 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+366 http fetch 200 https://registry.npmjs.org/moment/-/moment-2.29.1.tgz
+367 silly cache afterAdd chalk@4.0.0
+368 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\chalk\4.0.0\package\package.json not in flight; writing
+369 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+370 silly resolveWithNewModule express@4.17.1 checking installable status
+371 silly cache add args [ 'express@^4.17.1', null ]
+372 verbose cache add spec express@^4.17.1
+373 silly cache add parsed spec Result {
+373 silly cache add   raw: 'express@^4.17.1',
+373 silly cache add   scope: null,
+373 silly cache add   escapedName: 'express',
+373 silly cache add   name: 'express',
+373 silly cache add   rawSpec: '^4.17.1',
+373 silly cache add   spec: '>=4.17.1 <5.0.0',
+373 silly cache add   type: 'range' }
+374 silly addNamed express@>=4.17.1 <5.0.0
+375 verbose addNamed ">=4.17.1 <5.0.0" is a valid semver range for express
+376 silly addNameRange { name: 'express', range: '>=4.17.1 <5.0.0', hasData: false }
+377 silly mapToRegistry name express
+378 silly mapToRegistry using default registry
+379 silly mapToRegistry registry https://registry.npmjs.org/
+380 silly mapToRegistry data Result {
+380 silly mapToRegistry   raw: 'express',
+380 silly mapToRegistry   scope: null,
+380 silly mapToRegistry   escapedName: 'express',
+380 silly mapToRegistry   name: 'express',
+380 silly mapToRegistry   rawSpec: '',
+380 silly mapToRegistry   spec: 'latest',
+380 silly mapToRegistry   type: 'tag' }
+381 silly mapToRegistry uri https://registry.npmjs.org/express
+382 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+383 silly cache afterAdd ms@2.1.3
+384 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\ms\2.1.3\package\package.json not in flight; writing
+385 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+386 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\chalk\4.0.0\package\package.json written
+387 verbose get https://registry.npmjs.org/express not expired, no request
+388 silly addNameRange number 2 { name: 'express', range: '>=4.17.1 <5.0.0', hasData: true }
+389 silly addNameRange versions [ 'express',
+389 silly addNameRange   [ '0.14.0',
+389 silly addNameRange     '0.14.1',
+389 silly addNameRange     '1.0.0',
+389 silly addNameRange     '1.0.1',
+389 silly addNameRange     '1.0.2',
+389 silly addNameRange     '1.0.3',
+389 silly addNameRange     '1.0.4',
+389 silly addNameRange     '1.0.5',
+389 silly addNameRange     '1.0.6',
+389 silly addNameRange     '1.0.7',
+389 silly addNameRange     '1.0.8',
+389 silly addNameRange     '2.0.0',
+389 silly addNameRange     '2.1.0',
+389 silly addNameRange     '2.1.1',
+389 silly addNameRange     '2.2.0',
+389 silly addNameRange     '2.2.1',
+389 silly addNameRange     '2.2.2',
+389 silly addNameRange     '2.3.0',
+389 silly addNameRange     '2.3.1',
+389 silly addNameRange     '2.3.2',
+389 silly addNameRange     '2.3.3',
+389 silly addNameRange     '2.3.4',
+389 silly addNameRange     '2.3.5',
+389 silly addNameRange     '2.3.6',
+389 silly addNameRange     '2.3.7',
+389 silly addNameRange     '2.3.8',
+389 silly addNameRange     '2.3.9',
+389 silly addNameRange     '2.3.10',
+389 silly addNameRange     '2.3.11',
+389 silly addNameRange     '2.3.12',
+389 silly addNameRange     '2.4.0',
+389 silly addNameRange     '2.4.1',
+389 silly addNameRange     '2.4.2',
+389 silly addNameRange     '2.4.3',
+389 silly addNameRange     '2.4.4',
+389 silly addNameRange     '2.4.5',
+389 silly addNameRange     '2.4.6',
+389 silly addNameRange     '2.4.7',
+389 silly addNameRange     '2.5.0',
+389 silly addNameRange     '2.5.1',
+389 silly addNameRange     '2.5.2',
+389 silly addNameRange     '2.5.3',
+389 silly addNameRange     '2.5.4',
+389 silly addNameRange     '2.5.5',
+389 silly addNameRange     '2.5.6',
+389 silly addNameRange     '2.5.7',
+389 silly addNameRange     '2.5.8',
+389 silly addNameRange     '2.5.9',
+389 silly addNameRange     '2.5.10',
+389 silly addNameRange     '2.5.11',
+389 silly addNameRange     '3.0.0',
+389 silly addNameRange     '3.0.1',
+389 silly addNameRange     '3.0.2',
+389 silly addNameRange     '3.0.3',
+389 silly addNameRange     '3.0.4',
+389 silly addNameRange     '3.0.5',
+389 silly addNameRange     '3.0.6',
+389 silly addNameRange     '3.1.0',
+389 silly addNameRange     '3.1.1',
+389 silly addNameRange     '3.1.2',
+389 silly addNameRange     '3.2.0',
+389 silly addNameRange     '3.2.1',
+389 silly addNameRange     '3.2.2',
+389 silly addNameRange     '3.2.3',
+389 silly addNameRange     '3.2.4',
+389 silly addNameRange     '3.2.5',
+389 silly addNameRange     '3.2.6',
+389 silly addNameRange     '3.3.0',
+389 silly addNameRange     '3.3.1',
+389 silly addNameRange     '3.3.2',
+389 silly addNameRange     '3.3.3',
+389 silly addNameRange     '3.3.4',
+389 silly addNameRange     '3.3.5',
+389 silly addNameRange     '3.3.6',
+389 silly addNameRange     '1.0.0-beta',
+389 silly addNameRange     '1.0.0-beta2',
+389 silly addNameRange     '1.0.0-rc',
+389 silly addNameRange     '1.0.0-rc2',
+389 silly addNameRange     '1.0.0-rc3',
+389 silly addNameRange     '1.0.0-rc4',
+389 silly addNameRange     '2.0.0-beta',
+389 silly addNameRange     '2.0.0-beta2',
+389 silly addNameRange     '2.0.0-beta3',
+389 silly addNameRange     '2.0.0-rc',
+389 silly addNameRange     '2.0.0-rc2',
+389 silly addNameRange     '2.0.0-rc3',
+389 silly addNameRange     '3.0.0-alpha1',
+389 silly addNameRange     '3.0.0-alpha2',
+389 silly addNameRange     '3.0.0-alpha3',
+389 silly addNameRange     '3.0.0-alpha4',
+389 silly addNameRange     '3.0.0-alpha5',
+389 silly addNameRange     '3.0.0-beta1',
+389 silly addNameRange     '3.0.0-beta2',
+389 silly addNameRange     '3.0.0-beta3',
+389 silly addNameRange     '3.0.0-beta4',
+389 silly addNameRange     '3.0.0-beta6',
+389 silly addNameRange     '3.0.0-beta7',
+389 silly addNameRange     '3.0.0-rc1',
+389 silly addNameRange     '3.0.0-rc2',
+389 silly addNameRange     '3.0.0-rc3',
+389 silly addNameRange     ... 164 more items ] ]
+390 silly addNamed express@4.17.1
+391 verbose addNamed "4.17.1" is a plain semver version for express
+392 silly mapToRegistry name express
+393 silly mapToRegistry using default registry
+394 silly mapToRegistry registry https://registry.npmjs.org/
+395 silly mapToRegistry data Result {
+395 silly mapToRegistry   raw: 'express',
+395 silly mapToRegistry   scope: null,
+395 silly mapToRegistry   escapedName: 'express',
+395 silly mapToRegistry   name: 'express',
+395 silly mapToRegistry   rawSpec: '',
+395 silly mapToRegistry   spec: 'latest',
+395 silly mapToRegistry   type: 'tag' }
+396 silly mapToRegistry uri https://registry.npmjs.org/express
+397 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.17.1.tgz not in flight; adding
+398 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.17.1.tgz',
+398 verbose addRemoteTarball   '4491fc38605cf51f8629d39c2b5d026f98a4c134' ]
+399 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\ms\2.1.3\package\package.json written
+400 info retry fetch attempt 1 at 9:01:30 PM
+401 info attempt registry request try #1 at 9:01:30 PM
+402 http fetch GET https://registry.npmjs.org/express/-/express-4.17.1.tgz
+403 http fetch 200 https://registry.npmjs.org/express/-/express-4.17.1.tgz
+404 silly fetchAndShaCheck shasum 4491fc38605cf51f8629d39c2b5d026f98a4c134
+405 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\express\-\express-4.17.1.tgz not in flight; adding
+406 verbose addTmpTarball already have metadata; skipping unpack for express@4.17.1
+407 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+408 silly fetchAndShaCheck shasum b2be769fa31940be9eeea6469c075e35006fa3d3
+409 silly cache afterAdd express@4.17.1
+410 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\express\4.17.1\package\package.json not in flight; writing
+411 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+412 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\express\4.17.1\package\package.json written
+413 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\moment\-\moment-2.29.1.tgz not in flight; adding
+414 verbose addTmpTarball already have metadata; skipping unpack for moment@2.29.1
+415 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+416 silly cache afterAdd moment@2.29.1
+417 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\moment\2.29.1\package\package.json not in flight; writing
+418 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+419 http 200 https://registry.npmjs.org/node-fetch
+420 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+420 verbose headers   'content-type': 'application/json',
+420 verbose headers   'transfer-encoding': 'chunked',
+420 verbose headers   connection: 'keep-alive',
+420 verbose headers   'set-cookie': [ '__cfduid=d84f45520393ebbb10ebd7ff2edb39d7d1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+420 verbose headers   'cf-ray': '62308e42cc26dea6-BLR',
+420 verbose headers   'cache-control': 'public, max-age=300',
+420 verbose headers   etag: 'W/"8af335501c5bc4e18c684b9407773e73"',
+420 verbose headers   'last-modified': 'Sat, 05 Sep 2020 13:00:49 GMT',
+420 verbose headers   vary: 'accept-encoding, accept',
+420 verbose headers   'cf-cache-status': 'REVALIDATED',
+420 verbose headers   'cf-request-id': '0852373db90000dea638a10000000001',
+420 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+420 verbose headers   server: 'cloudflare',
+420 verbose headers   'content-encoding': 'gzip' }
+421 silly get cb [ 200,
+421 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+421 silly get     'content-type': 'application/json',
+421 silly get     'transfer-encoding': 'chunked',
+421 silly get     connection: 'keep-alive',
+421 silly get     'set-cookie': [ '__cfduid=d84f45520393ebbb10ebd7ff2edb39d7d1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+421 silly get     'cf-ray': '62308e42cc26dea6-BLR',
+421 silly get     'cache-control': 'public, max-age=300',
+421 silly get     etag: 'W/"8af335501c5bc4e18c684b9407773e73"',
+421 silly get     'last-modified': 'Sat, 05 Sep 2020 13:00:49 GMT',
+421 silly get     vary: 'accept-encoding, accept',
+421 silly get     'cf-cache-status': 'REVALIDATED',
+421 silly get     'cf-request-id': '0852373db90000dea638a10000000001',
+421 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+421 silly get     server: 'cloudflare',
+421 silly get     'content-encoding': 'gzip' } ]
+422 verbose get saving node-fetch to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\node-fetch\.cache.json
+423 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+424 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\moment\2.29.1\package\package.json written
+425 silly resolveWithNewModule node-fetch@2.6.1 checking installable status
+426 silly cache add args [ 'node-fetch@*', null ]
+427 verbose cache add spec node-fetch@*
+428 silly cache add parsed spec Result {
+428 silly cache add   raw: 'node-fetch@*',
+428 silly cache add   scope: null,
+428 silly cache add   escapedName: 'node-fetch',
+428 silly cache add   name: 'node-fetch',
+428 silly cache add   rawSpec: '*',
+428 silly cache add   spec: '*',
+428 silly cache add   type: 'range' }
+429 silly addNamed node-fetch@*
+430 verbose addNamed "*" is a valid semver range for node-fetch
+431 silly addNameRange { name: 'node-fetch', range: '*', hasData: false }
+432 silly mapToRegistry name node-fetch
+433 silly mapToRegistry using default registry
+434 silly mapToRegistry registry https://registry.npmjs.org/
+435 silly mapToRegistry data Result {
+435 silly mapToRegistry   raw: 'node-fetch',
+435 silly mapToRegistry   scope: null,
+435 silly mapToRegistry   escapedName: 'node-fetch',
+435 silly mapToRegistry   name: 'node-fetch',
+435 silly mapToRegistry   rawSpec: '',
+435 silly mapToRegistry   spec: 'latest',
+435 silly mapToRegistry   type: 'tag' }
+436 silly mapToRegistry uri https://registry.npmjs.org/node-fetch
+437 verbose addNameRange registry:https://registry.npmjs.org/node-fetch not in flight; fetching
+438 http 200 https://registry.npmjs.org/discord-prefix
+439 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+439 verbose headers   'content-type': 'application/json',
+439 verbose headers   'transfer-encoding': 'chunked',
+439 verbose headers   connection: 'keep-alive',
+439 verbose headers   'set-cookie': [ '__cfduid=dcea26a91bd3abf834920baa35059ac951613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+439 verbose headers   'cf-ray': '62308e42be99de9a-BLR',
+439 verbose headers   'cache-control': 'public, max-age=300',
+439 verbose headers   etag: 'W/"88f2f8581135a37a6008c8126070bf9f"',
+439 verbose headers   'last-modified': 'Sun, 24 Jan 2021 03:13:26 GMT',
+439 verbose headers   vary: 'accept-encoding, accept',
+439 verbose headers   'cf-cache-status': 'MISS',
+439 verbose headers   'cf-request-id': '0852373db30000de9a1c8ea000000001',
+439 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+439 verbose headers   server: 'cloudflare',
+439 verbose headers   'content-encoding': 'gzip' }
+440 silly get cb [ 200,
+440 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+440 silly get     'content-type': 'application/json',
+440 silly get     'transfer-encoding': 'chunked',
+440 silly get     connection: 'keep-alive',
+440 silly get     'set-cookie': [ '__cfduid=dcea26a91bd3abf834920baa35059ac951613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+440 silly get     'cf-ray': '62308e42be99de9a-BLR',
+440 silly get     'cache-control': 'public, max-age=300',
+440 silly get     etag: 'W/"88f2f8581135a37a6008c8126070bf9f"',
+440 silly get     'last-modified': 'Sun, 24 Jan 2021 03:13:26 GMT',
+440 silly get     vary: 'accept-encoding, accept',
+440 silly get     'cf-cache-status': 'MISS',
+440 silly get     'cf-request-id': '0852373db30000de9a1c8ea000000001',
+440 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+440 silly get     server: 'cloudflare',
+440 silly get     'content-encoding': 'gzip' } ]
+441 verbose get saving discord-prefix to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\discord-prefix\.cache.json
+442 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+443 verbose get https://registry.npmjs.org/node-fetch not expired, no request
+444 silly addNameRange number 2 { name: 'node-fetch', range: '*', hasData: true }
+445 silly addNameRange versions [ 'node-fetch',
+445 silly addNameRange   [ '0.1.0',
+445 silly addNameRange     '1.0.0',
+445 silly addNameRange     '1.0.1',
+445 silly addNameRange     '1.0.2',
+445 silly addNameRange     '1.0.3',
+445 silly addNameRange     '1.0.4',
+445 silly addNameRange     '1.0.5',
+445 silly addNameRange     '1.0.6',
+445 silly addNameRange     '1.1.0',
+445 silly addNameRange     '1.1.1',
+445 silly addNameRange     '1.1.2',
+445 silly addNameRange     '1.2.0',
+445 silly addNameRange     '1.2.1',
+445 silly addNameRange     '1.3.0',
+445 silly addNameRange     '1.3.1',
+445 silly addNameRange     '1.3.2',
+445 silly addNameRange     '1.3.3',
+445 silly addNameRange     '1.4.0',
+445 silly addNameRange     '1.4.1',
+445 silly addNameRange     '1.5.0',
+445 silly addNameRange     '1.5.1',
+445 silly addNameRange     '1.5.2',
+445 silly addNameRange     '1.5.3',
+445 silly addNameRange     '1.6.0',
+445 silly addNameRange     '1.6.1',
+445 silly addNameRange     '1.6.2',
+445 silly addNameRange     '1.6.3',
+445 silly addNameRange     '2.0.0-alpha.1',
+445 silly addNameRange     '2.0.0-alpha.3',
+445 silly addNameRange     '2.0.0-alpha.4',
+445 silly addNameRange     '1.7.0',
+445 silly addNameRange     '1.7.1',
+445 silly addNameRange     '2.0.0-alpha.5',
+445 silly addNameRange     '2.0.0-alpha.6',
+445 silly addNameRange     '2.0.0-alpha.7',
+445 silly addNameRange     '2.0.0-alpha.8',
+445 silly addNameRange     '1.7.2',
+445 silly addNameRange     '1.7.3',
+445 silly addNameRange     '2.0.0-alpha.9',
+445 silly addNameRange     '2.0.0',
+445 silly addNameRange     '2.1.0',
+445 silly addNameRange     '2.1.1',
+445 silly addNameRange     '2.1.2',
+445 silly addNameRange     '2.2.0',
+445 silly addNameRange     '2.2.1',
+445 silly addNameRange     '2.3.0',
+445 silly addNameRange     '2.4.0',
+445 silly addNameRange     '2.4.1',
+445 silly addNameRange     '2.5.0',
+445 silly addNameRange     '2.6.0',
+445 silly addNameRange     '3.0.0-beta.1',
+445 silly addNameRange     '3.0.0-beta.2',
+445 silly addNameRange     '3.0.0-beta.3',
+445 silly addNameRange     '3.0.0-beta.4',
+445 silly addNameRange     '3.0.0-beta.5',
+445 silly addNameRange     '3.0.0-beta.6',
+445 silly addNameRange     '3.0.0-beta.6-exportfix',
+445 silly addNameRange     '3.0.0-beta.7',
+445 silly addNameRange     '3.0.0-beta.8',
+445 silly addNameRange     '3.0.0-beta.9',
+445 silly addNameRange     '2.6.1' ] ]
+446 silly addNamed node-fetch@2.6.1
+447 verbose addNamed "2.6.1" is a plain semver version for node-fetch
+448 silly mapToRegistry name node-fetch
+449 silly mapToRegistry using default registry
+450 silly mapToRegistry registry https://registry.npmjs.org/
+451 silly mapToRegistry data Result {
+451 silly mapToRegistry   raw: 'node-fetch',
+451 silly mapToRegistry   scope: null,
+451 silly mapToRegistry   escapedName: 'node-fetch',
+451 silly mapToRegistry   name: 'node-fetch',
+451 silly mapToRegistry   rawSpec: '',
+451 silly mapToRegistry   spec: 'latest',
+451 silly mapToRegistry   type: 'tag' }
+452 silly mapToRegistry uri https://registry.npmjs.org/node-fetch
+453 verbose addRemoteTarball https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz not in flight; adding
+454 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz',
+454 verbose addRemoteTarball   '045bd323631f76ed2e2b55573394416b639a0052' ]
+455 http 200 https://registry.npmjs.org/discord-canvas
+456 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+456 verbose headers   'content-type': 'application/json',
+456 verbose headers   'transfer-encoding': 'chunked',
+456 verbose headers   connection: 'keep-alive',
+456 verbose headers   'set-cookie': [ '__cfduid=da3c4adf69fe8aa1487044cfb5823efea1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+456 verbose headers   'cf-ray': '62308e42bea5de96-BLR',
+456 verbose headers   'cache-control': 'public, max-age=300',
+456 verbose headers   etag: 'W/"3b21520461b6a68377275b70e866a1a3"',
+456 verbose headers   'last-modified': 'Tue, 10 Nov 2020 17:56:32 GMT',
+456 verbose headers   vary: 'accept-encoding, accept',
+456 verbose headers   'cf-cache-status': 'MISS',
+456 verbose headers   'cf-request-id': '0852373db30000de96970e2000000001',
+456 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+456 verbose headers   server: 'cloudflare',
+456 verbose headers   'content-encoding': 'gzip' }
+457 silly get cb [ 200,
+457 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+457 silly get     'content-type': 'application/json',
+457 silly get     'transfer-encoding': 'chunked',
+457 silly get     connection: 'keep-alive',
+457 silly get     'set-cookie': [ '__cfduid=da3c4adf69fe8aa1487044cfb5823efea1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+457 silly get     'cf-ray': '62308e42bea5de96-BLR',
+457 silly get     'cache-control': 'public, max-age=300',
+457 silly get     etag: 'W/"3b21520461b6a68377275b70e866a1a3"',
+457 silly get     'last-modified': 'Tue, 10 Nov 2020 17:56:32 GMT',
+457 silly get     vary: 'accept-encoding, accept',
+457 silly get     'cf-cache-status': 'MISS',
+457 silly get     'cf-request-id': '0852373db30000de96970e2000000001',
+457 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+457 silly get     server: 'cloudflare',
+457 silly get     'content-encoding': 'gzip' } ]
+458 verbose get saving discord-canvas to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\discord-canvas\.cache.json
+459 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+460 info retry fetch attempt 1 at 9:01:31 PM
+461 info attempt registry request try #1 at 9:01:31 PM
+462 http fetch GET https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz
+463 http 200 https://registry.npmjs.org/anti-raid
+464 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+464 verbose headers   'content-type': 'application/json',
+464 verbose headers   'transfer-encoding': 'chunked',
+464 verbose headers   connection: 'keep-alive',
+464 verbose headers   'set-cookie': [ '__cfduid=d2d0ea52c824976f8f5d3c9ae1b40e7041613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+464 verbose headers   'cf-ray': '62308e42cc53de7e-BLR',
+464 verbose headers   'cache-control': 'public, max-age=300',
+464 verbose headers   etag: 'W/"6d0ce3b3e1dfbf72638ac634daaa47d2"',
+464 verbose headers   'last-modified': 'Wed, 30 Sep 2020 17:25:32 GMT',
+464 verbose headers   vary: 'accept-encoding, accept',
+464 verbose headers   'cf-cache-status': 'MISS',
+464 verbose headers   'cf-request-id': '0852373db90000de7e059e0000000001',
+464 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+464 verbose headers   server: 'cloudflare',
+464 verbose headers   'content-encoding': 'gzip' }
+465 silly get cb [ 200,
+465 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+465 silly get     'content-type': 'application/json',
+465 silly get     'transfer-encoding': 'chunked',
+465 silly get     connection: 'keep-alive',
+465 silly get     'set-cookie': [ '__cfduid=d2d0ea52c824976f8f5d3c9ae1b40e7041613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+465 silly get     'cf-ray': '62308e42cc53de7e-BLR',
+465 silly get     'cache-control': 'public, max-age=300',
+465 silly get     etag: 'W/"6d0ce3b3e1dfbf72638ac634daaa47d2"',
+465 silly get     'last-modified': 'Wed, 30 Sep 2020 17:25:32 GMT',
+465 silly get     vary: 'accept-encoding, accept',
+465 silly get     'cf-cache-status': 'MISS',
+465 silly get     'cf-request-id': '0852373db90000de7e059e0000000001',
+465 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+465 silly get     server: 'cloudflare',
+465 silly get     'content-encoding': 'gzip' } ]
+466 verbose get saving anti-raid to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\anti-raid\.cache.json
+467 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+468 http fetch 200 https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz
+469 silly resolveWithNewModule discord-prefix@2.0.0 checking installable status
+470 silly cache add args [ 'discord-prefix@^2.0.0', null ]
+471 verbose cache add spec discord-prefix@^2.0.0
+472 silly cache add parsed spec Result {
+472 silly cache add   raw: 'discord-prefix@^2.0.0',
+472 silly cache add   scope: null,
+472 silly cache add   escapedName: 'discord-prefix',
+472 silly cache add   name: 'discord-prefix',
+472 silly cache add   rawSpec: '^2.0.0',
+472 silly cache add   spec: '>=2.0.0 <3.0.0',
+472 silly cache add   type: 'range' }
+473 silly addNamed discord-prefix@>=2.0.0 <3.0.0
+474 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for discord-prefix
+475 silly addNameRange { name: 'discord-prefix',
+475 silly addNameRange   range: '>=2.0.0 <3.0.0',
+475 silly addNameRange   hasData: false }
+476 silly mapToRegistry name discord-prefix
+477 silly mapToRegistry using default registry
+478 silly mapToRegistry registry https://registry.npmjs.org/
+479 silly mapToRegistry data Result {
+479 silly mapToRegistry   raw: 'discord-prefix',
+479 silly mapToRegistry   scope: null,
+479 silly mapToRegistry   escapedName: 'discord-prefix',
+479 silly mapToRegistry   name: 'discord-prefix',
+479 silly mapToRegistry   rawSpec: '',
+479 silly mapToRegistry   spec: 'latest',
+479 silly mapToRegistry   type: 'tag' }
+480 silly mapToRegistry uri https://registry.npmjs.org/discord-prefix
+481 verbose addNameRange registry:https://registry.npmjs.org/discord-prefix not in flight; fetching
+482 silly resolveWithNewModule discord-canvas@1.4.1 checking installable status
+483 silly cache add args [ 'discord-canvas@^1.1.0', null ]
+484 verbose cache add spec discord-canvas@^1.1.0
+485 silly cache add parsed spec Result {
+485 silly cache add   raw: 'discord-canvas@^1.1.0',
+485 silly cache add   scope: null,
+485 silly cache add   escapedName: 'discord-canvas',
+485 silly cache add   name: 'discord-canvas',
+485 silly cache add   rawSpec: '^1.1.0',
+485 silly cache add   spec: '>=1.1.0 <2.0.0',
+485 silly cache add   type: 'range' }
+486 silly addNamed discord-canvas@>=1.1.0 <2.0.0
+487 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for discord-canvas
+488 silly addNameRange { name: 'discord-canvas',
+488 silly addNameRange   range: '>=1.1.0 <2.0.0',
+488 silly addNameRange   hasData: false }
+489 silly mapToRegistry name discord-canvas
+490 silly mapToRegistry using default registry
+491 silly mapToRegistry registry https://registry.npmjs.org/
+492 silly mapToRegistry data Result {
+492 silly mapToRegistry   raw: 'discord-canvas',
+492 silly mapToRegistry   scope: null,
+492 silly mapToRegistry   escapedName: 'discord-canvas',
+492 silly mapToRegistry   name: 'discord-canvas',
+492 silly mapToRegistry   rawSpec: '',
+492 silly mapToRegistry   spec: 'latest',
+492 silly mapToRegistry   type: 'tag' }
+493 silly mapToRegistry uri https://registry.npmjs.org/discord-canvas
+494 verbose addNameRange registry:https://registry.npmjs.org/discord-canvas not in flight; fetching
+495 verbose get https://registry.npmjs.org/discord-prefix not expired, no request
+496 silly addNameRange number 2 { name: 'discord-prefix',
+496 silly addNameRange   range: '>=2.0.0 <3.0.0',
+496 silly addNameRange   hasData: true }
+497 silly addNameRange versions [ 'discord-prefix',
+497 silly addNameRange   [ '1.0.1',
+497 silly addNameRange     '1.0.2',
+497 silly addNameRange     '1.0.3',
+497 silly addNameRange     '1.0.4',
+497 silly addNameRange     '1.0.5',
+497 silly addNameRange     '1.0.6',
+497 silly addNameRange     '1.0.7',
+497 silly addNameRange     '1.0.8',
+497 silly addNameRange     '1.0.9',
+497 silly addNameRange     '1.1.0',
+497 silly addNameRange     '2.0.0' ] ]
+498 silly addNamed discord-prefix@2.0.0
+499 verbose addNamed "2.0.0" is a plain semver version for discord-prefix
+500 silly mapToRegistry name discord-prefix
+501 silly mapToRegistry using default registry
+502 silly mapToRegistry registry https://registry.npmjs.org/
+503 silly mapToRegistry data Result {
+503 silly mapToRegistry   raw: 'discord-prefix',
+503 silly mapToRegistry   scope: null,
+503 silly mapToRegistry   escapedName: 'discord-prefix',
+503 silly mapToRegistry   name: 'discord-prefix',
+503 silly mapToRegistry   rawSpec: '',
+503 silly mapToRegistry   spec: 'latest',
+503 silly mapToRegistry   type: 'tag' }
+504 silly mapToRegistry uri https://registry.npmjs.org/discord-prefix
+505 verbose addRemoteTarball https://registry.npmjs.org/discord-prefix/-/discord-prefix-2.0.0.tgz not in flight; adding
+506 verbose addRemoteTarball [ 'https://registry.npmjs.org/discord-prefix/-/discord-prefix-2.0.0.tgz',
+506 verbose addRemoteTarball   '1fe1e0970f289d3cf5dc484945168c64dbbe9fe3' ]
+507 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/discordjs/discord.js.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-0e937e32: undefined
+507 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/discordjs/discord.js.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-0e937e32: undefined
+508 silly tryHTTPS attempting to clone git+https://github.com/discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140
+509 silly tryClone cloning discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140 via git+https://github.com/discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140
+510 verbose tryClone git-https-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-914b79a0 not in flight; caching
+511 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+512 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/reaction-role.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-reaction-role-git-894b337a: undefined
+512 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/reaction-role.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-reaction-role-git-894b337a: undefined
+513 silly tryHTTPS attempting to clone git+https://github.com/namekinggamerboy/reaction-role.git
+514 silly tryClone cloning namekinggamerboy/reaction-role via git+https://github.com/namekinggamerboy/reaction-role.git
+515 verbose tryClone git-https-github-com-namekinggamerboy-reaction-role-git-2d97dd70 not in flight; caching
+516 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+517 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/music-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-music-uplife-git-7ea5b275: undefined
+517 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/music-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-music-uplife-git-7ea5b275: undefined
+518 silly tryHTTPS attempting to clone git+https://github.com/namekinggamerboy/music-uplife.git
+519 silly tryClone cloning namekinggamerboy/music-uplife via git+https://github.com/namekinggamerboy/music-uplife.git
+520 verbose tryClone git-https-github-com-namekinggamerboy-music-uplife-git-4e6673a6 not in flight; caching
+521 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+522 silly resolveWithNewModule anti-raid@1.0.9 checking installable status
+523 silly cache add args [ 'anti-raid@1.0.9', null ]
+524 verbose cache add spec anti-raid@1.0.9
+525 silly cache add parsed spec Result {
+525 silly cache add   raw: 'anti-raid@1.0.9',
+525 silly cache add   scope: null,
+525 silly cache add   escapedName: 'anti-raid',
+525 silly cache add   name: 'anti-raid',
+525 silly cache add   rawSpec: '1.0.9',
+525 silly cache add   spec: '1.0.9',
+525 silly cache add   type: 'version' }
+526 silly addNamed anti-raid@1.0.9
+527 verbose addNamed "1.0.9" is a plain semver version for anti-raid
+528 silly mapToRegistry name anti-raid
+529 silly mapToRegistry using default registry
+530 silly mapToRegistry registry https://registry.npmjs.org/
+531 silly mapToRegistry data Result {
+531 silly mapToRegistry   raw: 'anti-raid',
+531 silly mapToRegistry   scope: null,
+531 silly mapToRegistry   escapedName: 'anti-raid',
+531 silly mapToRegistry   name: 'anti-raid',
+531 silly mapToRegistry   rawSpec: '',
+531 silly mapToRegistry   spec: 'latest',
+531 silly mapToRegistry   type: 'tag' }
+532 silly mapToRegistry uri https://registry.npmjs.org/anti-raid
+533 verbose addNameVersion registry:https://registry.npmjs.org/anti-raid not in flight; fetching
+534 silly fetchAndShaCheck shasum 045bd323631f76ed2e2b55573394416b639a0052
+535 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/discord-giveaways.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-67ccccce: undefined
+535 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/discord-giveaways.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-67ccccce: undefined
+536 silly tryHTTPS attempting to clone git+https://github.com/namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465
+537 silly tryClone cloning namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465 via git+https://github.com/namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465
+538 verbose tryClone git-https-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-f84ccd2e not in flight; caching
+539 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+540 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/economy-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-economy-uplife-git-75aa76c7: undefined
+540 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/namekinggamerboy/economy-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-economy-uplife-git-75aa76c7: undefined
+541 silly tryHTTPS attempting to clone git+https://github.com/namekinggamerboy/economy-uplife.git
+542 silly tryClone cloning namekinggamerboy/economy-uplife via git+https://github.com/namekinggamerboy/economy-uplife.git
+543 verbose tryClone git-https-github-com-namekinggamerboy-economy-uplife-git-2874cb7e not in flight; caching
+544 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+545 http 200 https://registry.npmjs.org/snekfetch
+546 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+546 verbose headers   'content-type': 'application/json; charset=UTF-8',
+546 verbose headers   'transfer-encoding': 'chunked',
+546 verbose headers   connection: 'keep-alive',
+546 verbose headers   'set-cookie': [ '__cfduid=d398105d7d3c9f98a091ed8c3246e86f81613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+546 verbose headers   'cf-ray': '62308e42bebbde92-BLR',
+546 verbose headers   'cache-control': 'public, max-age=300',
+546 verbose headers   etag: 'W/"be371346bb3e8afa0e68ad22c70132be"',
+546 verbose headers   'last-modified': 'Fri, 20 Jul 2018 03:17:09 GMT',
+546 verbose headers   vary: 'accept-encoding, accept',
+546 verbose headers   'cf-cache-status': 'MISS',
+546 verbose headers   'cf-request-id': '0852373db40000de928f357000000001',
+546 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+546 verbose headers   server: 'cloudflare',
+546 verbose headers   'content-encoding': 'gzip' }
+547 silly get cb [ 200,
+547 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+547 silly get     'content-type': 'application/json; charset=UTF-8',
+547 silly get     'transfer-encoding': 'chunked',
+547 silly get     connection: 'keep-alive',
+547 silly get     'set-cookie': [ '__cfduid=d398105d7d3c9f98a091ed8c3246e86f81613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+547 silly get     'cf-ray': '62308e42bebbde92-BLR',
+547 silly get     'cache-control': 'public, max-age=300',
+547 silly get     etag: 'W/"be371346bb3e8afa0e68ad22c70132be"',
+547 silly get     'last-modified': 'Fri, 20 Jul 2018 03:17:09 GMT',
+547 silly get     vary: 'accept-encoding, accept',
+547 silly get     'cf-cache-status': 'MISS',
+547 silly get     'cf-request-id': '0852373db40000de928f357000000001',
+547 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+547 silly get     server: 'cloudflare',
+547 silly get     'content-encoding': 'gzip' } ]
+548 verbose get saving snekfetch to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\snekfetch\.cache.json
+549 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+550 verbose get https://registry.npmjs.org/discord-canvas not expired, no request
+551 silly addNameRange number 2 { name: 'discord-canvas',
+551 silly addNameRange   range: '>=1.1.0 <2.0.0',
+551 silly addNameRange   hasData: true }
+552 silly addNameRange versions [ 'discord-canvas',
+552 silly addNameRange   [ '1.0.0',
+552 silly addNameRange     '1.0.1',
+552 silly addNameRange     '1.0.2',
+552 silly addNameRange     '1.0.3',
+552 silly addNameRange     '1.1.0',
+552 silly addNameRange     '1.2.0',
+552 silly addNameRange     '1.3.0',
+552 silly addNameRange     '1.3.1',
+552 silly addNameRange     '1.3.2',
+552 silly addNameRange     '1.4.0',
+552 silly addNameRange     '1.4.1' ] ]
+553 silly addNamed discord-canvas@1.4.1
+554 verbose addNamed "1.4.1" is a plain semver version for discord-canvas
+555 info retry fetch attempt 1 at 9:01:31 PM
+556 info attempt registry request try #1 at 9:01:31 PM
+557 http fetch GET https://registry.npmjs.org/discord-prefix/-/discord-prefix-2.0.0.tgz
+558 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\node-fetch\-\node-fetch-2.6.1.tgz not in flight; adding
+559 verbose addTmpTarball already have metadata; skipping unpack for node-fetch@2.6.1
+560 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+561 silly mapToRegistry name discord-canvas
+562 silly mapToRegistry using default registry
+563 silly mapToRegistry registry https://registry.npmjs.org/
+564 silly mapToRegistry data Result {
+564 silly mapToRegistry   raw: 'discord-canvas',
+564 silly mapToRegistry   scope: null,
+564 silly mapToRegistry   escapedName: 'discord-canvas',
+564 silly mapToRegistry   name: 'discord-canvas',
+564 silly mapToRegistry   rawSpec: '',
+564 silly mapToRegistry   spec: 'latest',
+564 silly mapToRegistry   type: 'tag' }
+565 silly mapToRegistry uri https://registry.npmjs.org/discord-canvas
+566 verbose addRemoteTarball https://registry.npmjs.org/discord-canvas/-/discord-canvas-1.4.1.tgz not in flight; adding
+567 verbose addRemoteTarball [ 'https://registry.npmjs.org/discord-canvas/-/discord-canvas-1.4.1.tgz',
+567 verbose addRemoteTarball   'afd06224fe23cecd6fb8c3456af7a1a0f65b08a5' ]
+568 verbose get https://registry.npmjs.org/anti-raid not expired, no request
+569 http 200 https://registry.npmjs.org/moment-duration-format
+570 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+570 verbose headers   'content-type': 'application/json',
+570 verbose headers   'transfer-encoding': 'chunked',
+570 verbose headers   connection: 'keep-alive',
+570 verbose headers   'set-cookie': [ '__cfduid=dcea26a91bd3abf834920baa35059ac951613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+570 verbose headers   'cf-ray': '62308e42ae8ade9a-BLR',
+570 verbose headers   'cache-control': 'public, max-age=300',
+570 verbose headers   etag: 'W/"9c5f135fdf7a043a275fb5d0e9ba4dfc"',
+570 verbose headers   'last-modified': 'Wed, 05 Jun 2019 14:07:15 GMT',
+570 verbose headers   vary: 'accept-encoding, accept',
+570 verbose headers   'cf-cache-status': 'EXPIRED',
+570 verbose headers   'cf-request-id': '0852373dac0000de9a06371000000001',
+570 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+570 verbose headers   server: 'cloudflare',
+570 verbose headers   'content-encoding': 'gzip' }
+571 silly get cb [ 200,
+571 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+571 silly get     'content-type': 'application/json',
+571 silly get     'transfer-encoding': 'chunked',
+571 silly get     connection: 'keep-alive',
+571 silly get     'set-cookie': [ '__cfduid=dcea26a91bd3abf834920baa35059ac951613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+571 silly get     'cf-ray': '62308e42ae8ade9a-BLR',
+571 silly get     'cache-control': 'public, max-age=300',
+571 silly get     etag: 'W/"9c5f135fdf7a043a275fb5d0e9ba4dfc"',
+571 silly get     'last-modified': 'Wed, 05 Jun 2019 14:07:15 GMT',
+571 silly get     vary: 'accept-encoding, accept',
+571 silly get     'cf-cache-status': 'EXPIRED',
+571 silly get     'cf-request-id': '0852373dac0000de9a06371000000001',
+571 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+571 silly get     server: 'cloudflare',
+571 silly get     'content-encoding': 'gzip' } ]
+572 verbose get saving moment-duration-format to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\moment-duration-format\.cache.json
+573 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+574 silly mapToRegistry name anti-raid
+575 silly mapToRegistry using default registry
+576 silly mapToRegistry registry https://registry.npmjs.org/
+577 silly mapToRegistry data Result {
+577 silly mapToRegistry   raw: 'anti-raid',
+577 silly mapToRegistry   scope: null,
+577 silly mapToRegistry   escapedName: 'anti-raid',
+577 silly mapToRegistry   name: 'anti-raid',
+577 silly mapToRegistry   rawSpec: '',
+577 silly mapToRegistry   spec: 'latest',
+577 silly mapToRegistry   type: 'tag' }
+578 silly mapToRegistry uri https://registry.npmjs.org/anti-raid
+579 verbose addRemoteTarball https://registry.npmjs.org/anti-raid/-/anti-raid-1.0.9.tgz not in flight; adding
+580 verbose addRemoteTarball [ 'https://registry.npmjs.org/anti-raid/-/anti-raid-1.0.9.tgz',
+580 verbose addRemoteTarball   'b915cce3bdfa0e5e1df8dedb54fc7061cbe4aef3' ]
+581 info retry fetch attempt 1 at 9:01:31 PM
+582 info attempt registry request try #1 at 9:01:31 PM
+583 http fetch GET https://registry.npmjs.org/discord-canvas/-/discord-canvas-1.4.1.tgz
+584 info retry fetch attempt 1 at 9:01:31 PM
+585 info attempt registry request try #1 at 9:01:31 PM
+586 http fetch GET https://registry.npmjs.org/anti-raid/-/anti-raid-1.0.9.tgz
+587 silly resolveWithNewModule snekfetch@3.6.4 checking installable status
+588 silly cache add args [ 'snekfetch@^3.6.1', null ]
+589 verbose cache add spec snekfetch@^3.6.1
+590 silly cache add parsed spec Result {
+590 silly cache add   raw: 'snekfetch@^3.6.1',
+590 silly cache add   scope: null,
+590 silly cache add   escapedName: 'snekfetch',
+590 silly cache add   name: 'snekfetch',
+590 silly cache add   rawSpec: '^3.6.1',
+590 silly cache add   spec: '>=3.6.1 <4.0.0',
+590 silly cache add   type: 'range' }
+591 silly addNamed snekfetch@>=3.6.1 <4.0.0
+592 verbose addNamed ">=3.6.1 <4.0.0" is a valid semver range for snekfetch
+593 silly addNameRange { name: 'snekfetch', range: '>=3.6.1 <4.0.0', hasData: false }
+594 silly mapToRegistry name snekfetch
+595 silly mapToRegistry using default registry
+596 silly mapToRegistry registry https://registry.npmjs.org/
+597 silly mapToRegistry data Result {
+597 silly mapToRegistry   raw: 'snekfetch',
+597 silly mapToRegistry   scope: null,
+597 silly mapToRegistry   escapedName: 'snekfetch',
+597 silly mapToRegistry   name: 'snekfetch',
+597 silly mapToRegistry   rawSpec: '',
+597 silly mapToRegistry   spec: 'latest',
+597 silly mapToRegistry   type: 'tag' }
+598 silly mapToRegistry uri https://registry.npmjs.org/snekfetch
+599 verbose addNameRange registry:https://registry.npmjs.org/snekfetch not in flight; fetching
+600 silly cache afterAdd node-fetch@2.6.1
+601 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\node-fetch\2.6.1\package\package.json not in flight; writing
+602 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+603 silly resolveWithNewModule moment-duration-format@2.3.2 checking installable status
+604 silly cache add args [ 'moment-duration-format@*', null ]
+605 verbose cache add spec moment-duration-format@*
+606 silly cache add parsed spec Result {
+606 silly cache add   raw: 'moment-duration-format@*',
+606 silly cache add   scope: null,
+606 silly cache add   escapedName: 'moment-duration-format',
+606 silly cache add   name: 'moment-duration-format',
+606 silly cache add   rawSpec: '*',
+606 silly cache add   spec: '*',
+606 silly cache add   type: 'range' }
+607 silly addNamed moment-duration-format@*
+608 verbose addNamed "*" is a valid semver range for moment-duration-format
+609 silly addNameRange { name: 'moment-duration-format', range: '*', hasData: false }
+610 silly mapToRegistry name moment-duration-format
+611 silly mapToRegistry using default registry
+612 silly mapToRegistry registry https://registry.npmjs.org/
+613 silly mapToRegistry data Result {
+613 silly mapToRegistry   raw: 'moment-duration-format',
+613 silly mapToRegistry   scope: null,
+613 silly mapToRegistry   escapedName: 'moment-duration-format',
+613 silly mapToRegistry   name: 'moment-duration-format',
+613 silly mapToRegistry   rawSpec: '',
+613 silly mapToRegistry   spec: 'latest',
+613 silly mapToRegistry   type: 'tag' }
+614 silly mapToRegistry uri https://registry.npmjs.org/moment-duration-format
+615 verbose addNameRange registry:https://registry.npmjs.org/moment-duration-format not in flight; fetching
+616 verbose get https://registry.npmjs.org/snekfetch not expired, no request
+617 silly addNameRange number 2 { name: 'snekfetch', range: '>=3.6.1 <4.0.0', hasData: true }
+618 silly addNameRange versions [ 'snekfetch',
+618 silly addNameRange   [ '1.0.0',
+618 silly addNameRange     '1.0.1',
+618 silly addNameRange     '1.1.0',
+618 silly addNameRange     '1.1.1',
+618 silly addNameRange     '2.0.0',
+618 silly addNameRange     '2.1.0',
+618 silly addNameRange     '2.2.0',
+618 silly addNameRange     '2.2.1',
+618 silly addNameRange     '2.2.2',
+618 silly addNameRange     '2.2.3',
+618 silly addNameRange     '2.2.4',
+618 silly addNameRange     '2.2.5',
+618 silly addNameRange     '2.3.0',
+618 silly addNameRange     '2.3.1',
+618 silly addNameRange     '2.3.2',
+618 silly addNameRange     '3.0.0',
+618 silly addNameRange     '3.0.1',
+618 silly addNameRange     '3.0.2',
+618 silly addNameRange     '3.0.3',
+618 silly addNameRange     '3.1.0',
+618 silly addNameRange     '3.1.1',
+618 silly addNameRange     '3.1.2',
+618 silly addNameRange     '3.1.3',
+618 silly addNameRange     '3.1.4',
+618 silly addNameRange     '3.1.5',
+618 silly addNameRange     '3.1.6',
+618 silly addNameRange     '3.1.7',
+618 silly addNameRange     '3.1.8',
+618 silly addNameRange     '3.1.9',
+618 silly addNameRange     '3.1.10',
+618 silly addNameRange     '3.1.11',
+618 silly addNameRange     '3.2.0',
+618 silly addNameRange     '3.2.1',
+618 silly addNameRange     '3.2.2',
+618 silly addNameRange     '3.2.3',
+618 silly addNameRange     '3.2.4',
+618 silly addNameRange     '3.2.6',
+618 silly addNameRange     '3.2.7',
+618 silly addNameRange     '3.2.8',
+618 silly addNameRange     '3.2.9',
+618 silly addNameRange     '3.3.0',
+618 silly addNameRange     '3.3.1',
+618 silly addNameRange     '3.2.0-rc',
+618 silly addNameRange     '3.4.0-rc',
+618 silly addNameRange     '3.4.0',
+618 silly addNameRange     '3.4.1',
+618 silly addNameRange     '3.4.2',
+618 silly addNameRange     '3.4.3',
+618 silly addNameRange     '3.4.4',
+618 silly addNameRange     '3.4.5',
+618 silly addNameRange     '3.5.0',
+618 silly addNameRange     '3.5.1',
+618 silly addNameRange     '3.5.2',
+618 silly addNameRange     '3.5.3-rc.1',
+618 silly addNameRange     '3.5.3',
+618 silly addNameRange     '3.5.4',
+618 silly addNameRange     '3.5.5',
+618 silly addNameRange     '3.5.6',
+618 silly addNameRange     '3.5.7',
+618 silly addNameRange     '3.5.8',
+618 silly addNameRange     '3.5.9',
+618 silly addNameRange     '3.6.0',
+618 silly addNameRange     '3.6.1',
+618 silly addNameRange     '3.6.2',
+618 silly addNameRange     '3.6.3',
+618 silly addNameRange     '3.6.4',
+618 silly addNameRange     '4.0.0-rc.0',
+618 silly addNameRange     '4.0.0-beta.0',
+618 silly addNameRange     '4.0.0-beta.1',
+618 silly addNameRange     '4.0.0',
+618 silly addNameRange     '4.0.1',
+618 silly addNameRange     '4.0.2',
+618 silly addNameRange     '4.0.3',
+618 silly addNameRange     '4.0.4' ] ]
+619 silly addNamed snekfetch@3.6.4
+620 verbose addNamed "3.6.4" is a plain semver version for snekfetch
+621 warn deprecated snekfetch@3.6.4: use node-fetch instead
+622 silly mapToRegistry name snekfetch
+623 silly mapToRegistry using default registry
+624 silly mapToRegistry registry https://registry.npmjs.org/
+625 silly mapToRegistry data Result {
+625 silly mapToRegistry   raw: 'snekfetch',
+625 silly mapToRegistry   scope: null,
+625 silly mapToRegistry   escapedName: 'snekfetch',
+625 silly mapToRegistry   name: 'snekfetch',
+625 silly mapToRegistry   rawSpec: '',
+625 silly mapToRegistry   spec: 'latest',
+625 silly mapToRegistry   type: 'tag' }
+626 silly mapToRegistry uri https://registry.npmjs.org/snekfetch
+627 verbose addRemoteTarball https://registry.npmjs.org/snekfetch/-/snekfetch-3.6.4.tgz not in flight; adding
+628 verbose addRemoteTarball [ 'https://registry.npmjs.org/snekfetch/-/snekfetch-3.6.4.tgz',
+628 verbose addRemoteTarball   'd13e80a616d892f3d38daae4289f4d258a645120' ]
+629 verbose get https://registry.npmjs.org/moment-duration-format not expired, no request
+630 silly addNameRange number 2 { name: 'moment-duration-format', range: '*', hasData: true }
+631 silly addNameRange versions [ 'moment-duration-format',
+631 silly addNameRange   [ '1.2.0',
+631 silly addNameRange     '1.2.1',
+631 silly addNameRange     '1.2.2',
+631 silly addNameRange     '1.3.0',
+631 silly addNameRange     '2.0.0',
+631 silly addNameRange     '2.0.1',
+631 silly addNameRange     '2.1.0',
+631 silly addNameRange     '2.1.1',
+631 silly addNameRange     '2.2.0',
+631 silly addNameRange     '2.2.1',
+631 silly addNameRange     '2.2.2',
+631 silly addNameRange     '2.3.0',
+631 silly addNameRange     '2.3.1',
+631 silly addNameRange     '2.3.2' ] ]
+632 silly addNamed moment-duration-format@2.3.2
+633 verbose addNamed "2.3.2" is a plain semver version for moment-duration-format
+634 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\node-fetch\2.6.1\package\package.json written
+635 silly mapToRegistry name moment-duration-format
+636 silly mapToRegistry using default registry
+637 silly mapToRegistry registry https://registry.npmjs.org/
+638 silly mapToRegistry data Result {
+638 silly mapToRegistry   raw: 'moment-duration-format',
+638 silly mapToRegistry   scope: null,
+638 silly mapToRegistry   escapedName: 'moment-duration-format',
+638 silly mapToRegistry   name: 'moment-duration-format',
+638 silly mapToRegistry   rawSpec: '',
+638 silly mapToRegistry   spec: 'latest',
+638 silly mapToRegistry   type: 'tag' }
+639 silly mapToRegistry uri https://registry.npmjs.org/moment-duration-format
+640 verbose addRemoteTarball https://registry.npmjs.org/moment-duration-format/-/moment-duration-format-2.3.2.tgz not in flight; adding
+641 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment-duration-format/-/moment-duration-format-2.3.2.tgz',
+641 verbose addRemoteTarball   '5fa2b19b941b8d277122ff3f87a12895ec0d6212' ]
+642 info retry fetch attempt 1 at 9:01:31 PM
+643 info attempt registry request try #1 at 9:01:31 PM
+644 http fetch GET https://registry.npmjs.org/snekfetch/-/snekfetch-3.6.4.tgz
+645 info retry fetch attempt 1 at 9:01:31 PM
+646 info attempt registry request try #1 at 9:01:31 PM
+647 http fetch GET https://registry.npmjs.org/moment-duration-format/-/moment-duration-format-2.3.2.tgz
+648 http fetch 200 https://registry.npmjs.org/snekfetch/-/snekfetch-3.6.4.tgz
+649 http fetch 200 https://registry.npmjs.org/moment-duration-format/-/moment-duration-format-2.3.2.tgz
+650 http 200 https://registry.npmjs.org/quick.db
+651 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+651 verbose headers   'content-type': 'application/json',
+651 verbose headers   'transfer-encoding': 'chunked',
+651 verbose headers   connection: 'keep-alive',
+651 verbose headers   'set-cookie': [ '__cfduid=d398105d7d3c9f98a091ed8c3246e86f81613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+651 verbose headers   'cf-ray': '62308e42beafde92-BLR',
+651 verbose headers   'cache-control': 'public, max-age=300',
+651 verbose headers   etag: 'W/"8e562d3725269f5f477e09dea178a6e6"',
+651 verbose headers   'last-modified': 'Wed, 14 Oct 2020 05:16:00 GMT',
+651 verbose headers   vary: 'accept-encoding, accept',
+651 verbose headers   'cf-cache-status': 'MISS',
+651 verbose headers   'cf-request-id': '0852373daf0000de927bb6c000000001',
+651 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+651 verbose headers   server: 'cloudflare',
+651 verbose headers   'content-encoding': 'gzip' }
+652 silly get cb [ 200,
+652 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+652 silly get     'content-type': 'application/json',
+652 silly get     'transfer-encoding': 'chunked',
+652 silly get     connection: 'keep-alive',
+652 silly get     'set-cookie': [ '__cfduid=d398105d7d3c9f98a091ed8c3246e86f81613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+652 silly get     'cf-ray': '62308e42beafde92-BLR',
+652 silly get     'cache-control': 'public, max-age=300',
+652 silly get     etag: 'W/"8e562d3725269f5f477e09dea178a6e6"',
+652 silly get     'last-modified': 'Wed, 14 Oct 2020 05:16:00 GMT',
+652 silly get     vary: 'accept-encoding, accept',
+652 silly get     'cf-cache-status': 'MISS',
+652 silly get     'cf-request-id': '0852373daf0000de927bb6c000000001',
+652 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+652 silly get     server: 'cloudflare',
+652 silly get     'content-encoding': 'gzip' } ]
+653 verbose get saving quick.db to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\quick.db\.cache.json
+654 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+655 silly fetchAndShaCheck shasum d13e80a616d892f3d38daae4289f4d258a645120
+656 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\snekfetch\-\snekfetch-3.6.4.tgz not in flight; adding
+657 verbose addTmpTarball already have metadata; skipping unpack for snekfetch@3.6.4
+658 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+659 silly resolveWithNewModule quick.db@7.1.3 checking installable status
+660 silly cache add args [ 'quick.db@^7.1.1', null ]
+661 verbose cache add spec quick.db@^7.1.1
+662 silly cache add parsed spec Result {
+662 silly cache add   raw: 'quick.db@^7.1.1',
+662 silly cache add   scope: null,
+662 silly cache add   escapedName: 'quick.db',
+662 silly cache add   name: 'quick.db',
+662 silly cache add   rawSpec: '^7.1.1',
+662 silly cache add   spec: '>=7.1.1 <8.0.0',
+662 silly cache add   type: 'range' }
+663 silly addNamed quick.db@>=7.1.1 <8.0.0
+664 verbose addNamed ">=7.1.1 <8.0.0" is a valid semver range for quick.db
+665 silly addNameRange { name: 'quick.db', range: '>=7.1.1 <8.0.0', hasData: false }
+666 silly mapToRegistry name quick.db
+667 silly mapToRegistry using default registry
+668 silly mapToRegistry registry https://registry.npmjs.org/
+669 silly mapToRegistry data Result {
+669 silly mapToRegistry   raw: 'quick.db',
+669 silly mapToRegistry   scope: null,
+669 silly mapToRegistry   escapedName: 'quick.db',
+669 silly mapToRegistry   name: 'quick.db',
+669 silly mapToRegistry   rawSpec: '',
+669 silly mapToRegistry   spec: 'latest',
+669 silly mapToRegistry   type: 'tag' }
+670 silly mapToRegistry uri https://registry.npmjs.org/quick.db
+671 verbose addNameRange registry:https://registry.npmjs.org/quick.db not in flight; fetching
+672 verbose get https://registry.npmjs.org/quick.db not expired, no request
+673 silly addNameRange number 2 { name: 'quick.db', range: '>=7.1.1 <8.0.0', hasData: true }
+674 silly addNameRange versions [ 'quick.db',
+674 silly addNameRange   [ '1.0.0',
+674 silly addNameRange     '1.0.1',
+674 silly addNameRange     '1.0.2',
+674 silly addNameRange     '1.0.3',
+674 silly addNameRange     '1.0.4',
+674 silly addNameRange     '1.0.5',
+674 silly addNameRange     '1.0.6',
+674 silly addNameRange     '1.0.7',
+674 silly addNameRange     '1.0.8',
+674 silly addNameRange     '1.0.9',
+674 silly addNameRange     '1.0.10',
+674 silly addNameRange     '2.0.0',
+674 silly addNameRange     '2.0.1',
+674 silly addNameRange     '2.0.2',
+674 silly addNameRange     '2.0.3',
+674 silly addNameRange     '2.0.4',
+674 silly addNameRange     '2.0.5',
+674 silly addNameRange     '2.0.6',
+674 silly addNameRange     '2.0.7',
+674 silly addNameRange     '2.0.8',
+674 silly addNameRange     '2.0.9',
+674 silly addNameRange     '2.0.10',
+674 silly addNameRange     '2.0.11',
+674 silly addNameRange     '2.0.12',
+674 silly addNameRange     '2.0.13',
+674 silly addNameRange     '2.1.0',
+674 silly addNameRange     '2.1.1',
+674 silly addNameRange     '2.1.2',
+674 silly addNameRange     '2.1.3',
+674 silly addNameRange     '2.1.4',
+674 silly addNameRange     '2.1.5',
+674 silly addNameRange     '2.1.6',
+674 silly addNameRange     '3.0.0',
+674 silly addNameRange     '3.0.1',
+674 silly addNameRange     '3.0.2',
+674 silly addNameRange     '3.0.3',
+674 silly addNameRange     '4.0.0',
+674 silly addNameRange     '4.0.1',
+674 silly addNameRange     '4.0.2',
+674 silly addNameRange     '4.1.0',
+674 silly addNameRange     '4.9.9',
+674 silly addNameRange     '4.9.10',
+674 silly addNameRange     '4.10.0',
+674 silly addNameRange     '5.0.0',
+674 silly addNameRange     '5.0.1',
+674 silly addNameRange     '5.0.2',
+674 silly addNameRange     '5.0.3',
+674 silly addNameRange     '5.0.4',
+674 silly addNameRange     '5.0.5',
+674 silly addNameRange     '5.1.0',
+674 silly addNameRange     '5.1.1',
+674 silly addNameRange     '5.1.2',
+674 silly addNameRange     '5.1.4',
+674 silly addNameRange     '5.2.0',
+674 silly addNameRange     '5.2.1',
+674 silly addNameRange     '5.2.2',
+674 silly addNameRange     '5.2.3',
+674 silly addNameRange     '5.3.0',
+674 silly addNameRange     '5.3.1',
+674 silly addNameRange     '5.3.2',
+674 silly addNameRange     '5.3.3',
+674 silly addNameRange     '5.3.4',
+674 silly addNameRange     '5.3.5',
+674 silly addNameRange     '5.3.6',
+674 silly addNameRange     '5.3.7',
+674 silly addNameRange     '5.3.8',
+674 silly addNameRange     '5.4.0',
+674 silly addNameRange     '5.4.1',
+674 silly addNameRange     '5.4.2',
+674 silly addNameRange     '5.4.3',
+674 silly addNameRange     '5.4.4',
+674 silly addNameRange     '5.4.5',
+674 silly addNameRange     '5.4.6',
+674 silly addNameRange     '5.4.7',
+674 silly addNameRange     '5.4.8',
+674 silly addNameRange     '5.4.9',
+674 silly addNameRange     '5.4.10',
+674 silly addNameRange     '5.4.11',
+674 silly addNameRange     '5.4.12',
+674 silly addNameRange     '5.4.13',
+674 silly addNameRange     '5.5.0',
+674 silly addNameRange     '5.5.1',
+674 silly addNameRange     '6.0.0',
+674 silly addNameRange     '6.0.1',
+674 silly addNameRange     '6.0.2',
+674 silly addNameRange     '6.0.3',
+674 silly addNameRange     '6.0.4',
+674 silly addNameRange     '6.0.5',
+674 silly addNameRange     '6.0.6',
+674 silly addNameRange     '6.1.0',
+674 silly addNameRange     '6.1.1',
+674 silly addNameRange     '6.1.2',
+674 silly addNameRange     '6.1.3',
+674 silly addNameRange     '6.1.4',
+674 silly addNameRange     '6.1.5',
+674 silly addNameRange     '6.2.0',
+674 silly addNameRange     '6.2.1',
+674 silly addNameRange     '6.2.2',
+674 silly addNameRange     '6.3.0',
+674 silly addNameRange     '6.3.1',
+674 silly addNameRange     ... 26 more items ] ]
+675 silly addNamed quick.db@7.1.3
+676 verbose addNamed "7.1.3" is a plain semver version for quick.db
+677 silly mapToRegistry name quick.db
+678 silly mapToRegistry using default registry
+679 silly mapToRegistry registry https://registry.npmjs.org/
+680 silly mapToRegistry data Result {
+680 silly mapToRegistry   raw: 'quick.db',
+680 silly mapToRegistry   scope: null,
+680 silly mapToRegistry   escapedName: 'quick.db',
+680 silly mapToRegistry   name: 'quick.db',
+680 silly mapToRegistry   rawSpec: '',
+680 silly mapToRegistry   spec: 'latest',
+680 silly mapToRegistry   type: 'tag' }
+681 silly mapToRegistry uri https://registry.npmjs.org/quick.db
+682 verbose addRemoteTarball https://registry.npmjs.org/quick.db/-/quick.db-7.1.3.tgz not in flight; adding
+683 verbose addRemoteTarball [ 'https://registry.npmjs.org/quick.db/-/quick.db-7.1.3.tgz',
+683 verbose addRemoteTarball   'dd111dac3aa0cf818f07306b537ca6f8b4b2ef7b' ]
+684 http 200 https://registry.npmjs.org/@discordjs%2fopus
+685 verbose headers { date: 'Wed, 17 Feb 2021 15:31:32 GMT',
+685 verbose headers   'content-type': 'application/json',
+685 verbose headers   'transfer-encoding': 'chunked',
+685 verbose headers   connection: 'keep-alive',
+685 verbose headers   'set-cookie': [ '__cfduid=d84f45520393ebbb10ebd7ff2edb39d7d1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+685 verbose headers   'cf-ray': '62308e42cc25dea6-BLR',
+685 verbose headers   'cache-control': 'public, max-age=300',
+685 verbose headers   etag: 'W/"9bd8ae8ba4ef8f0a810d1ab33a1323ee"',
+685 verbose headers   'last-modified': 'Wed, 27 Jan 2021 09:28:42 GMT',
+685 verbose headers   vary: 'accept-encoding, accept',
+685 verbose headers   'cf-cache-status': 'REVALIDATED',
+685 verbose headers   'cf-request-id': '0852373db90000dea654925000000001',
+685 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+685 verbose headers   server: 'cloudflare',
+685 verbose headers   'content-encoding': 'gzip' }
+686 silly get cb [ 200,
+686 silly get   { date: 'Wed, 17 Feb 2021 15:31:32 GMT',
+686 silly get     'content-type': 'application/json',
+686 silly get     'transfer-encoding': 'chunked',
+686 silly get     connection: 'keep-alive',
+686 silly get     'set-cookie': [ '__cfduid=d84f45520393ebbb10ebd7ff2edb39d7d1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+686 silly get     'cf-ray': '62308e42cc25dea6-BLR',
+686 silly get     'cache-control': 'public, max-age=300',
+686 silly get     etag: 'W/"9bd8ae8ba4ef8f0a810d1ab33a1323ee"',
+686 silly get     'last-modified': 'Wed, 27 Jan 2021 09:28:42 GMT',
+686 silly get     vary: 'accept-encoding, accept',
+686 silly get     'cf-cache-status': 'REVALIDATED',
+686 silly get     'cf-request-id': '0852373db90000dea654925000000001',
+686 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+686 silly get     server: 'cloudflare',
+686 silly get     'content-encoding': 'gzip' } ]
+687 verbose get saving @discordjs/opus to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\_40discordjs_252fopus\.cache.json
+688 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+689 info retry fetch attempt 1 at 9:01:32 PM
+690 info attempt registry request try #1 at 9:01:32 PM
+691 http fetch GET https://registry.npmjs.org/quick.db/-/quick.db-7.1.3.tgz
+692 silly cache afterAdd snekfetch@3.6.4
+693 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\snekfetch\3.6.4\package\package.json not in flight; writing
+694 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+695 silly fetchAndShaCheck shasum 5fa2b19b941b8d277122ff3f87a12895ec0d6212
+696 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\snekfetch\3.6.4\package\package.json written
+697 http fetch 200 https://registry.npmjs.org/quick.db/-/quick.db-7.1.3.tgz
+698 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\moment-duration-format\-\moment-duration-format-2.3.2.tgz not in flight; adding
+699 verbose addTmpTarball already have metadata; skipping unpack for moment-duration-format@2.3.2
+700 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+701 http 200 https://registry.npmjs.org/superagent
+702 verbose headers { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+702 verbose headers   'content-type': 'application/json',
+702 verbose headers   'transfer-encoding': 'chunked',
+702 verbose headers   connection: 'keep-alive',
+702 verbose headers   'set-cookie': [ '__cfduid=d2782111694ca68315aae681bc5626f0a1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+702 verbose headers   'cf-ray': '62308e42bd0cde8e-BLR',
+702 verbose headers   'cache-control': 'public, max-age=300',
+702 verbose headers   etag: 'W/"cb3e94494da7a9c9354a595c2f46a0eb"',
+702 verbose headers   'last-modified': 'Sun, 30 Aug 2020 19:25:11 GMT',
+702 verbose headers   vary: 'accept-encoding, accept',
+702 verbose headers   'cf-cache-status': 'EXPIRED',
+702 verbose headers   'cf-request-id': '0852373db70000de8e1d1bd000000001',
+702 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+702 verbose headers   server: 'cloudflare',
+702 verbose headers   'content-encoding': 'gzip' }
+703 silly get cb [ 200,
+703 silly get   { date: 'Wed, 17 Feb 2021 15:31:31 GMT',
+703 silly get     'content-type': 'application/json',
+703 silly get     'transfer-encoding': 'chunked',
+703 silly get     connection: 'keep-alive',
+703 silly get     'set-cookie': [ '__cfduid=d2782111694ca68315aae681bc5626f0a1613575890; expires=Fri, 19-Mar-21 15:31:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+703 silly get     'cf-ray': '62308e42bd0cde8e-BLR',
+703 silly get     'cache-control': 'public, max-age=300',
+703 silly get     etag: 'W/"cb3e94494da7a9c9354a595c2f46a0eb"',
+703 silly get     'last-modified': 'Sun, 30 Aug 2020 19:25:11 GMT',
+703 silly get     vary: 'accept-encoding, accept',
+703 silly get     'cf-cache-status': 'EXPIRED',
+703 silly get     'cf-request-id': '0852373db70000de8e1d1bd000000001',
+703 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+703 silly get     server: 'cloudflare',
+703 silly get     'content-encoding': 'gzip' } ]
+704 verbose get saving superagent to C:\Users\Sudhir\AppData\Roaming\npm-cache\registry.npmjs.org\superagent\.cache.json
+705 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+706 silly resolveWithNewModule @discordjs/opus@0.3.3 checking installable status
+707 silly cache add args [ '@discordjs/opus@^0.3.2', null ]
+708 verbose cache add spec @discordjs/opus@^0.3.2
+709 silly cache add parsed spec Result {
+709 silly cache add   raw: '@discordjs/opus@^0.3.2',
+709 silly cache add   scope: '@discordjs',
+709 silly cache add   escapedName: '@discordjs%2fopus',
+709 silly cache add   name: '@discordjs/opus',
+709 silly cache add   rawSpec: '^0.3.2',
+709 silly cache add   spec: '>=0.3.2 <0.4.0',
+709 silly cache add   type: 'range' }
+710 silly addNamed @discordjs/opus@>=0.3.2 <0.4.0
+711 verbose addNamed ">=0.3.2 <0.4.0" is a valid semver range for @discordjs/opus
+712 silly addNameRange { name: '@discordjs/opus',
+712 silly addNameRange   range: '>=0.3.2 <0.4.0',
+712 silly addNameRange   hasData: false }
+713 silly mapToRegistry name @discordjs/opus
+714 silly mapToRegistry scope (from package name) @discordjs
+715 verbose mapToRegistry no registry URL found in name for scope @discordjs
+716 silly mapToRegistry using default registry
+717 silly mapToRegistry registry https://registry.npmjs.org/
+718 silly mapToRegistry data Result {
+718 silly mapToRegistry   raw: '@discordjs/opus',
+718 silly mapToRegistry   scope: '@discordjs',
+718 silly mapToRegistry   escapedName: '@discordjs%2fopus',
+718 silly mapToRegistry   name: '@discordjs/opus',
+718 silly mapToRegistry   rawSpec: '',
+718 silly mapToRegistry   spec: 'latest',
+718 silly mapToRegistry   type: 'tag' }
+719 silly mapToRegistry uri https://registry.npmjs.org/@discordjs%2fopus
+720 verbose addNameRange registry:https://registry.npmjs.org/@discordjs%2fopus not in flight; fetching
+721 silly fetchAndShaCheck shasum dd111dac3aa0cf818f07306b537ca6f8b4b2ef7b
+722 verbose get https://registry.npmjs.org/@discordjs%2fopus not expired, no request
+723 silly addNameRange number 2 { name: '@discordjs/opus',
+723 silly addNameRange   range: '>=0.3.2 <0.4.0',
+723 silly addNameRange   hasData: true }
+724 silly addNameRange versions [ '@discordjs/opus',
+724 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.3.1', '0.3.2', '0.3.3', '0.4.0' ] ]
+725 silly addNamed @discordjs/opus@0.3.3
+726 verbose addNamed "0.3.3" is a plain semver version for @discordjs/opus
+727 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\quick.db\-\quick.db-7.1.3.tgz not in flight; adding
+728 verbose addTmpTarball already have metadata; skipping unpack for quick.db@7.1.3
+729 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+730 silly mapToRegistry name @discordjs/opus
+731 silly mapToRegistry scope (from package name) @discordjs
+732 verbose mapToRegistry no registry URL found in name for scope @discordjs
+733 silly mapToRegistry using default registry
+734 silly mapToRegistry registry https://registry.npmjs.org/
+735 silly mapToRegistry data Result {
+735 silly mapToRegistry   raw: '@discordjs/opus',
+735 silly mapToRegistry   scope: '@discordjs',
+735 silly mapToRegistry   escapedName: '@discordjs%2fopus',
+735 silly mapToRegistry   name: '@discordjs/opus',
+735 silly mapToRegistry   rawSpec: '',
+735 silly mapToRegistry   spec: 'latest',
+735 silly mapToRegistry   type: 'tag' }
+736 silly mapToRegistry uri https://registry.npmjs.org/@discordjs%2fopus
+737 verbose addRemoteTarball https://registry.npmjs.org/@discordjs/opus/-/opus-0.3.3.tgz not in flight; adding
+738 verbose addRemoteTarball [ 'https://registry.npmjs.org/@discordjs/opus/-/opus-0.3.3.tgz',
+738 verbose addRemoteTarball   'd3a9165b817ca477164ee28315aef259c1cdab48' ]
+739 silly resolveWithNewModule superagent@3.8.3 checking installable status
+740 silly cache add args [ 'superagent@^3.8.3', null ]
+741 verbose cache add spec superagent@^3.8.3
+742 silly cache add parsed spec Result {
+742 silly cache add   raw: 'superagent@^3.8.3',
+742 silly cache add   scope: null,
+742 silly cache add   escapedName: 'superagent',
+742 silly cache add   name: 'superagent',
+742 silly cache add   rawSpec: '^3.8.3',
+742 silly cache add   spec: '>=3.8.3 <4.0.0',
+742 silly cache add   type: 'range' }
+743 silly addNamed superagent@>=3.8.3 <4.0.0
+744 verbose addNamed ">=3.8.3 <4.0.0" is a valid semver range for superagent
+745 silly addNameRange { name: 'superagent', range: '>=3.8.3 <4.0.0', hasData: false }
+746 silly mapToRegistry name superagent
+747 silly mapToRegistry using default registry
+748 silly mapToRegistry registry https://registry.npmjs.org/
+749 silly mapToRegistry data Result {
+749 silly mapToRegistry   raw: 'superagent',
+749 silly mapToRegistry   scope: null,
+749 silly mapToRegistry   escapedName: 'superagent',
+749 silly mapToRegistry   name: 'superagent',
+749 silly mapToRegistry   rawSpec: '',
+749 silly mapToRegistry   spec: 'latest',
+749 silly mapToRegistry   type: 'tag' }
+750 silly mapToRegistry uri https://registry.npmjs.org/superagent
+751 verbose addNameRange registry:https://registry.npmjs.org/superagent not in flight; fetching
+752 http fetch 200 https://registry.npmjs.org/discord-prefix/-/discord-prefix-2.0.0.tgz
+753 info retry fetch attempt 1 at 9:01:32 PM
+754 info attempt registry request try #1 at 9:01:32 PM
+755 http fetch GET https://registry.npmjs.org/@discordjs/opus/-/opus-0.3.3.tgz
+756 silly cache afterAdd moment-duration-format@2.3.2
+757 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\moment-duration-format\2.3.2\package\package.json not in flight; writing
+758 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+759 verbose get https://registry.npmjs.org/superagent not expired, no request
+760 silly addNameRange number 2 { name: 'superagent', range: '>=3.8.3 <4.0.0', hasData: true }
+761 silly addNameRange versions [ 'superagent',
+761 silly addNameRange   [ '0.1.1',
+761 silly addNameRange     '0.1.2',
+761 silly addNameRange     '0.1.3',
+761 silly addNameRange     '0.2.0',
+761 silly addNameRange     '0.3.0',
+761 silly addNameRange     '0.4.0',
+761 silly addNameRange     '0.4.1',
+761 silly addNameRange     '0.4.2',
+761 silly addNameRange     '0.4.3',
+761 silly addNameRange     '0.5.0',
+761 silly addNameRange     '0.5.1',
+761 silly addNameRange     '0.6.0',
+761 silly addNameRange     '0.7.0',
+761 silly addNameRange     '0.8.0',
+761 silly addNameRange     '0.8.1',
+761 silly addNameRange     '0.8.2',
+761 silly addNameRange     '0.9.0',
+761 silly addNameRange     '0.9.1',
+761 silly addNameRange     '0.9.2',
+761 silly addNameRange     '0.9.3',
+761 silly addNameRange     '0.9.4',
+761 silly addNameRange     '0.9.5',
+761 silly addNameRange     '0.9.6',
+761 silly addNameRange     '0.9.7',
+761 silly addNameRange     '0.9.8',
+761 silly addNameRange     '0.9.9',
+761 silly addNameRange     '0.9.10',
+761 silly addNameRange     '0.10.0',
+761 silly addNameRange     '0.11.0',
+761 silly addNameRange     '0.12.0',
+761 silly addNameRange     '0.12.1',
+761 silly addNameRange     '0.12.2',
+761 silly addNameRange     '0.12.3',
+761 silly addNameRange     '0.12.4',
+761 silly addNameRange     '0.13.0',
+761 silly addNameRange     '0.14.0',
+761 silly addNameRange     '0.14.1',
+761 silly addNameRange     '0.14.2',
+761 silly addNameRange     '0.14.3',
+761 silly addNameRange     '0.14.4',
+761 silly addNameRange     '0.14.5',
+761 silly addNameRange     '0.14.6',
+761 silly addNameRange     '0.14.7',
+761 silly addNameRange     '0.14.8',
+761 silly addNameRange     '0.14.9',
+761 silly addNameRange     '0.15.0',
+761 silly addNameRange     '0.15.1',
+761 silly addNameRange     '0.15.2',
+761 silly addNameRange     '0.15.3',
+761 silly addNameRange     '0.15.4',
+761 silly addNameRange     '0.15.5',
+761 silly addNameRange     '0.15.6',
+761 silly addNameRange     '0.15.7',
+761 silly addNameRange     '0.16.0',
+761 silly addNameRange     '0.17.0',
+761 silly addNameRange     '0.18.0',
+761 silly addNameRange     '0.18.1',
+761 silly addNameRange     '0.18.2',
+761 silly addNameRange     '0.19.0',
+761 silly addNameRange     '0.19.1',
+761 silly addNameRange     '0.20.0',
+761 silly addNameRange     '0.21.0',
+761 silly addNameRange     '1.0.0',
+761 silly addNameRange     '1.1.0',
+761 silly addNameRange     '1.2.0',
+761 silly addNameRange     '1.3.0',
+761 silly addNameRange     '1.4.0',
+761 silly addNameRange     '1.5.0',
+761 silly addNameRange     '1.6.0',
+761 silly addNameRange     '1.6.1',
+761 silly addNameRange     '1.7.0',
+761 silly addNameRange     '1.7.1',
+761 silly addNameRange     '1.7.2',
+761 silly addNameRange     '1.8.0-beta.1',
+761 silly addNameRange     '1.8.0-beta.2',
+761 silly addNameRange     '1.8.0',
+761 silly addNameRange     '1.8.1',
+761 silly addNameRange     '1.8.2',
+761 silly addNameRange     '1.8.3',
+761 silly addNameRange     '2.0.0-alpha.1',
+761 silly addNameRange     '2.0.0-alpha.2',
+761 silly addNameRange     '2.0.0-alpha.3',
+761 silly addNameRange     '2.0.0',
+761 silly addNameRange     '2.1.0-beta.1',
+761 silly addNameRange     '2.1.0',
+761 silly addNameRange     '1.8.4',
+761 silly addNameRange     '2.2.0',
+761 silly addNameRange     '2.3.0',
+761 silly addNameRange     '3.0.0-alpha.1',
+761 silly addNameRange     '3.0.0-alpha.2',
+761 silly addNameRange     '3.0.0-alpha.3',
+761 silly addNameRange     '3.0.0',
+761 silly addNameRange     '3.1.0',
+761 silly addNameRange     '1.8.5',
+761 silly addNameRange     '3.2.0',
+761 silly addNameRange     '3.2.1',
+761 silly addNameRange     '3.3.0',
+761 silly addNameRange     '3.3.1',
+761 silly addNameRange     '3.3.2',
+761 silly addNameRange     '3.4.0',
+761 silly addNameRange     ... 43 more items ] ]
+762 silly addNamed superagent@3.8.3
+763 verbose addNamed "3.8.3" is a plain semver version for superagent
+764 silly mapToRegistry name superagent
+765 silly mapToRegistry using default registry
+766 silly mapToRegistry registry https://registry.npmjs.org/
+767 silly mapToRegistry data Result {
+767 silly mapToRegistry   raw: 'superagent',
+767 silly mapToRegistry   scope: null,
+767 silly mapToRegistry   escapedName: 'superagent',
+767 silly mapToRegistry   name: 'superagent',
+767 silly mapToRegistry   rawSpec: '',
+767 silly mapToRegistry   spec: 'latest',
+767 silly mapToRegistry   type: 'tag' }
+768 silly mapToRegistry uri https://registry.npmjs.org/superagent
+769 verbose addRemoteTarball https://registry.npmjs.org/superagent/-/superagent-3.8.3.tgz not in flight; adding
+770 verbose addRemoteTarball [ 'https://registry.npmjs.org/superagent/-/superagent-3.8.3.tgz',
+770 verbose addRemoteTarball   '460ea0dbdb7d5b11bc4f78deba565f86a178e128' ]
+771 http fetch 200 https://registry.npmjs.org/anti-raid/-/anti-raid-1.0.9.tgz
+772 silly fetchAndShaCheck shasum 1fe1e0970f289d3cf5dc484945168c64dbbe9fe3
+773 info retry fetch attempt 1 at 9:01:32 PM
+774 info attempt registry request try #1 at 9:01:32 PM
+775 http fetch GET https://registry.npmjs.org/superagent/-/superagent-3.8.3.tgz
+776 silly cache afterAdd quick.db@7.1.3
+777 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\quick.db\7.1.3\package\package.json not in flight; writing
+778 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+779 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\discord-prefix\-\discord-prefix-2.0.0.tgz not in flight; adding
+780 verbose addTmpTarball already have metadata; skipping unpack for discord-prefix@2.0.0
+781 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+782 silly fetchAndShaCheck shasum b915cce3bdfa0e5e1df8dedb54fc7061cbe4aef3
+783 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\moment-duration-format\2.3.2\package\package.json written
+784 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\anti-raid\-\anti-raid-1.0.9.tgz not in flight; adding
+785 verbose addTmpTarball already have metadata; skipping unpack for anti-raid@1.0.9
+786 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+787 http fetch 200 https://registry.npmjs.org/superagent/-/superagent-3.8.3.tgz
+788 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\quick.db\7.1.3\package\package.json written
+789 silly cache afterAdd discord-prefix@2.0.0
+790 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\discord-prefix\2.0.0\package\package.json not in flight; writing
+791 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+792 silly cache afterAdd anti-raid@1.0.9
+793 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\anti-raid\1.0.9\package\package.json not in flight; writing
+794 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+795 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\discord-prefix\2.0.0\package\package.json written
+796 silly fetchAndShaCheck shasum 460ea0dbdb7d5b11bc4f78deba565f86a178e128
+797 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\anti-raid\1.0.9\package\package.json written
+798 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\superagent\-\superagent-3.8.3.tgz not in flight; adding
+799 verbose addTmpTarball already have metadata; skipping unpack for superagent@3.8.3
+800 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+801 silly cache afterAdd superagent@3.8.3
+802 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\superagent\3.8.3\package\package.json not in flight; writing
+803 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+804 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\superagent\3.8.3\package\package.json written
+805 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/discordjs/discord.js.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-914b79a0: undefined
+805 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/discordjs/discord.js.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-914b79a0: undefined
+806 silly trySSH attempting to clone git@github.com:discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140
+807 silly tryClone cloning discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140 via git@github.com:discordjs/discord.js.git#fe7df708e44e0280dfaf0f8e457b154781bb5140
+808 verbose tryClone git-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-dec9b72f not in flight; caching
+809 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+810 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/music-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-music-uplife-git-4e6673a6: undefined
+810 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/music-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-music-uplife-git-4e6673a6: undefined
+811 silly trySSH attempting to clone git@github.com:namekinggamerboy/music-uplife.git
+812 silly tryClone cloning namekinggamerboy/music-uplife via git@github.com:namekinggamerboy/music-uplife.git
+813 verbose tryClone git-github-com-namekinggamerboy-music-uplife-git-c3703ef5 not in flight; caching
+814 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+815 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/reaction-role.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-reaction-role-git-2d97dd70: undefined
+815 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/reaction-role.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-reaction-role-git-2d97dd70: undefined
+816 silly trySSH attempting to clone git@github.com:namekinggamerboy/reaction-role.git
+817 silly tryClone cloning namekinggamerboy/reaction-role via git@github.com:namekinggamerboy/reaction-role.git
+818 verbose tryClone git-github-com-namekinggamerboy-reaction-role-git-daa00ebe not in flight; caching
+819 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+820 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/economy-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-economy-uplife-git-2874cb7e: undefined
+820 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/economy-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-economy-uplife-git-2874cb7e: undefined
+821 silly trySSH attempting to clone git@github.com:namekinggamerboy/economy-uplife.git
+822 silly tryClone cloning namekinggamerboy/economy-uplife via git@github.com:namekinggamerboy/economy-uplife.git
+823 verbose tryClone git-github-com-namekinggamerboy-economy-uplife-git-ecd632c4 not in flight; caching
+824 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+825 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/discord-giveaways.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-f84ccd2e: undefined
+825 verbose git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/namekinggamerboy/discord-giveaways.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-f84ccd2e: undefined
+826 silly trySSH attempting to clone git@github.com:namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465
+827 silly tryClone cloning namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465 via git@github.com:namekinggamerboy/discord-giveaways.git#4439acef211bad6bb1146f23f348b5af3fe4f465
+828 verbose tryClone git-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-db84bfe2 not in flight; caching
+829 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+830 http fetch 200 https://registry.npmjs.org/discord-canvas/-/discord-canvas-1.4.1.tgz
+831 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/music-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-music-uplife-git-c3703ef5: undefined
+831 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/music-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-music-uplife-git-c3703ef5: undefined
+832 silly fetchPackageMetaData Error: not found: git
+832 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+832 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+832 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+832 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+832 silly fetchPackageMetaData  error for music-uplife@github:namekinggamerboy/music-uplife { Error: not found: git
+832 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+832 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+832 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+832 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+832 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+833 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/reaction-role.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-reaction-role-git-daa00ebe: undefined
+833 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/reaction-role.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-reaction-role-git-daa00ebe: undefined
+834 silly fetchPackageMetaData Error: not found: git
+834 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+834 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+834 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+834 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+834 silly fetchPackageMetaData  error for reaction-role@github:namekinggamerboy/reaction-role { Error: not found: git
+834 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+834 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+834 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+834 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+834 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+835 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/discord-giveaways.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-db84bfe2: undefined
+835 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/discord-giveaways.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-discord-giveaways-git-4439acef211bad6bb1146f23f348b5af3fe4f465-db84bfe2: undefined
+836 silly fetchPackageMetaData Error: not found: git
+836 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+836 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+836 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+836 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+836 silly fetchPackageMetaData  error for discord-giveaways@github:namekinggamerboy/discord-giveaways#4439acef211bad6bb1146f23f348b5af3fe4f465 { Error: not found: git
+836 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+836 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+836 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+836 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+836 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+837 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/economy-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-economy-uplife-git-ecd632c4: undefined
+837 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:namekinggamerboy/economy-uplife.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-namekinggamerboy-economy-uplife-git-ecd632c4: undefined
+838 silly fetchPackageMetaData Error: not found: git
+838 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+838 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+838 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+838 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+838 silly fetchPackageMetaData  error for economy-uplife@github:namekinggamerboy/economy-uplife { Error: not found: git
+838 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+838 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+838 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+838 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+838 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+839 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:discordjs/discord.js.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-dec9b72f: undefined
+839 error git clone --template=C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:discordjs/discord.js.git C:\Users\Sudhir\AppData\Roaming\npm-cache\_git-remotes\git-github-com-discordjs-discord-js-git-fe7df708e44e0280dfaf0f8e457b154781bb5140-dec9b72f: undefined
+840 silly fetchPackageMetaData Error: not found: git
+840 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+840 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+840 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+840 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+840 silly fetchPackageMetaData  error for discord.js@github:discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140 { Error: not found: git
+840 silly fetchPackageMetaData     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+840 silly fetchPackageMetaData     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+840 silly fetchPackageMetaData     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+840 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+840 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+841 http fetch 200 https://registry.npmjs.org/@discordjs/opus/-/opus-0.3.3.tgz
+842 silly fetchAndShaCheck shasum d3a9165b817ca477164ee28315aef259c1cdab48
+843 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\_40discordjs\opus\-\opus-0.3.3.tgz not in flight; adding
+844 verbose addTmpTarball already have metadata; skipping unpack for @discordjs/opus@0.3.3
+845 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+846 silly cache afterAdd @discordjs/opus@0.3.3
+847 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\@discordjs\opus\0.3.3\package\package.json not in flight; writing
+848 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+849 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\@discordjs\opus\0.3.3\package\package.json written
+850 silly fetchAndShaCheck shasum afd06224fe23cecd6fb8c3456af7a1a0f65b08a5
+851 verbose addTmpTarball C:\Users\Sudhir\AppData\Local\Temp\npm-7912-b23a3f7b\registry.npmjs.org\discord-canvas\-\discord-canvas-1.4.1.tgz not in flight; adding
+852 verbose addTmpTarball already have metadata; skipping unpack for discord-canvas@1.4.1
+853 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+854 silly cache afterAdd discord-canvas@1.4.1
+855 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\discord-canvas\1.4.1\package\package.json not in flight; writing
+856 verbose correctMkdir C:\Users\Sudhir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+857 verbose afterAdd C:\Users\Sudhir\AppData\Roaming\npm-cache\discord-canvas\1.4.1\package\package.json written
+858 silly rollbackFailedOptional Starting
+859 silly rollbackFailedOptional Finishing
+860 silly runTopLevelLifecycles Finishing
+861 silly install printInstalled
+862 verbose stack Error: not found: git
+862 verbose stack     at getNotFoundError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+862 verbose stack     at F (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+862 verbose stack     at E (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+862 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+862 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+862 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+862 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:264:29
+862 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+863 verbose cwd C:\Users\Sudhir\Documents\GitHub\discord-uplife-bot-example
+864 error Windows_NT 6.3.9600
+865 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "uplife-api"
+866 error node v6.10.1
+867 error npm  v3.10.10
+868 error code ENOGIT
+869 error not found: git
+870 error Failed using git.
+870 error This is most likely not a problem with npm itself.
+870 error Please check if you have git installed and in your PATH.
+871 verbose exit [ 1, true ]

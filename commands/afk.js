@@ -52,6 +52,6 @@ exports.command = {
 
   name: "afk",
 
-  aliases: [""]
+  aliases: ["make me afk"]
 
 };
